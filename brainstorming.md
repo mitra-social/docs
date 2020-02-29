@@ -94,25 +94,32 @@ DELETE /user/{preferredUsername}
 ```
 
 ### Read inbox
-See: https://www.w3.org/TR/activitypub/#inbox
-
+#### Request
 ```
 GET /user/{preferredUsername}/inbox
 ```
 
-### Post into outbox
-See: https://www.w3.org/TR/activitypub/#outbox
+#### Response
+See: https://www.w3.org/TR/activitypub/#inbox
 
+### Post into outbox
+
+#### Request
 ```
 POST /user/{preferredUsername}/outbox
 ```
+
+#### Response
+See: https://www.w3.org/TR/activitypub/#outbox
 
 * Follow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow
 * Unfollow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove 
 
 ### Show following users
-See: https://www.w3.org/TR/activitypub/#following
-
+#### Request
 ```
 GET /user/{preferredUsername}/following
 ```
+
+#### Response
+See: https://www.w3.org/TR/activitypub/#following
