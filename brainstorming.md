@@ -6,3 +6,58 @@
 * In what format do we store content (especially text/notes)?
   * Maybe out of scope until we start implementing write access
 * 
+
+
+## Authorize user
+
+### Request
+```
+POST /token
+Content-Type: application/json
+{
+  "username": "john.doe",
+  "password": "secret"
+}
+```
+
+### Response
+```
+401 Access denied
+```
+
+```
+204 No Content
+Token: {jwt token}
+```
+
+## Logout user
+### Request
+```
+POST /logout
+Authorization: Bearer {jwt token}
+```
+
+### Response
+```
+204 No Content
+```
+
+```
+403 Forbidden
+```
+
+## Delete user
+
+### Request
+```
+DELETE /user/x
+```
+
+### Response
+```
+204 No Content
+```
+
+```
+403 Forbidden
+```
