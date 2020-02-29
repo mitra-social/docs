@@ -1,5 +1,6 @@
 # Brainstorming
 
+## Open questions
 * How to deal with a huge amount of follows from a single user. (User A follows 1000 other (remote) users)?
 * Should we treat local users differently than remote users?
   * Out of scope
@@ -7,10 +8,15 @@
   * Maybe out of scope until we start implementing write access
 * 
 
+## User stories
+- [ ] login user
+- [ ] logout user
+- [ ] delete user
 
-## Authorize user
+## API doc
+### Authorize user
 
-### Request
+#### Request
 ```
 POST /token
 Content-Type: application/json
@@ -20,7 +26,7 @@ Content-Type: application/json
 }
 ```
 
-### Response
+#### Response
 ```
 401 Access denied
 ```
@@ -30,14 +36,14 @@ Content-Type: application/json
 Token: {jwt token}
 ```
 
-## Logout user
-### Request
+### Logout user
+#### Request
 ```
 POST /logout
 Authorization: Bearer {jwt token}
 ```
 
-### Response
+#### Response
 ```
 204 No Content
 ```
@@ -46,14 +52,14 @@ Authorization: Bearer {jwt token}
 403 Forbidden
 ```
 
-## Delete user
+### Delete user
 
-### Request
+#### Request
 ```
 DELETE /user/x
 ```
 
-### Response
+#### Response
 ```
 204 No Content
 ```
