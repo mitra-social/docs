@@ -64,7 +64,7 @@ Token: {jwt token}
 ### Logout user
 #### Request
 ```
-POST /logout
+POST /user/{preferredUsername}/logout
 Authorization: Bearer {jwt token}
 ```
 
@@ -81,7 +81,7 @@ Authorization: Bearer {jwt token}
 
 #### Request
 ```
-DELETE /user/x
+DELETE /user/{preferredUsername}
 ```
 
 #### Response
@@ -91,4 +91,28 @@ DELETE /user/x
 
 ```
 403 Forbidden
+```
+
+### Read inbox
+See: https://www.w3.org/TR/activitypub/#inbox
+
+```
+GET /user/{preferredUsername}/inbox
+```
+
+### Post into outbox
+See: https://www.w3.org/TR/activitypub/#outbox
+
+```
+POST /user/{preferredUsername}/outbox
+```
+
+* Follow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow
+* Unfollow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove 
+
+### Show following users
+See: https://www.w3.org/TR/activitypub/#following
+
+```
+GET /user/{preferredUsername}/following
 ```
