@@ -29,7 +29,14 @@
 ### Phase 2
 - [ ] register a new user
 - [ ] password forgotten
-- [ ] like a post from another user
+- [ ] like a post 
+- [ ] comment a post 
+
+### Phase n
+- [ ] Post an image
+- [ ] Post a note
+- [ ] Post a video
+- [ ] Share a post
 
 ## API doc
 ### Authorize user
