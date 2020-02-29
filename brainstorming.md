@@ -109,11 +109,11 @@ See: https://www.w3.org/TR/activitypub/#inbox
 POST /user/{preferredUsername}/outbox
 ```
 
-#### Response
-See: https://www.w3.org/TR/activitypub/#outbox
-
 * Follow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow
 * Unfollow: https://www.w3.org/TR/activitystreams-vocabulary/#dfn-remove 
+
+#### Response
+See: https://www.w3.org/TR/activitypub/#outbox
 
 ### Show following users
 #### Request
