@@ -22,6 +22,7 @@
 - [ ] daemon for pulling following user's outboxes
 - [ ] request pulling an outbox for a specific user
 - [ ] request pulling all outboxed of following users
+- [ ] auto update "all feed" in a specific interval
 
 ## API doc
 ### Authorize user
