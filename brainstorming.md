@@ -12,6 +12,15 @@
 - [ ] login user
 - [ ] logout user
 - [ ] delete user
+- [ ] show indbox of user
+- [ ] show profile of user
+- [ ] edit profile of user (summary, profile pic)
+- [ ] follow another user
+- [ ] list all following users
+- [ ] search for users (webfinger)
+- [ ] daemon for pulling following user's outboxes
+- [ ] request pulling an outbox for a specific user
+- [ ] request pulling all outboxed of following users
 
 ## API doc
 ### Authorize user
