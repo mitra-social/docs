@@ -16,6 +16,7 @@
 - [ ] show profile of user
 - [ ] edit profile of user (summary, profile pic)
 - [ ] follow another user
+- [ ] unfollow a user
 - [ ] list all following users
 - [ ] search for users (webfinger)
 - [ ] daemon for pulling following user's outboxes
