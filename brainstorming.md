@@ -9,6 +9,8 @@
 * 
 
 ## User stories
+
+### Phase 1
 - [ ] login user
 - [ ] logout user
 - [ ] delete user
@@ -23,6 +25,11 @@
 - [ ] request pulling an outbox for a specific user
 - [ ] request pulling all outboxed of following users
 - [ ] auto update "all feed" in a specific interval
+
+### Phase 2
+- [ ] register a new user
+- [ ] password forgotten
+- [ ] like a post from another user
 
 ## API doc
 ### Authorize user
