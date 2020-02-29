@@ -33,10 +33,10 @@
 - [ ] comment a post 
 
 ### Phase n
-- [ ] Post an image
-- [ ] Post a note
-- [ ] Post a video
-- [ ] Share a post
+- [ ] post an image
+- [ ] post a note
+- [ ] post a video
+- [ ] share a post
 
 ## API doc
 ### Authorize user
