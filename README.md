@@ -4,3 +4,11 @@
 # Documentation
 
 In this repository we collect project wide documentation and issue tracking.
+
+## Project timeline
+![Visualized timeline](./diagrams/timeline.svg)
+
+## Documents
+
+* [Brainstorming](./documents/brainstorming.md)
+* [Wireframes](./wireframes/wireframes.md)
