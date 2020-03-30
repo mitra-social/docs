@@ -12,3 +12,8 @@ In this repository we collect project wide documentation and issue tracking.
 
 * [Brainstorming](./documents/brainstorming.md)
 * [Wireframes](./wireframes/wireframes.md)
+
+### Backend
+
+#### Class diagram
+![Class diagram](./diagrams/class-diagram.svg)
