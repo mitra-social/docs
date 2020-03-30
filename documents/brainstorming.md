@@ -11,7 +11,7 @@
 ## User stories
 
 ### Phase 1
-- [ ] login user
+- [x] login user
 - [ ] logout user
 - [ ] delete user
 - [ ] show indbox of user
