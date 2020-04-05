@@ -2,7 +2,7 @@
 
 ## Activity Pub type conversion
 ### Link type
-A link type can be converted to a string without loosing information, if only the `href` attribute is set.
+A link type can be represented as a string without loosing information, if only the `href` attribute is set.
 
 ```
 {
