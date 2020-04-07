@@ -1,7 +1,7 @@
 # Follow
 ```
 POST /user/{username}/outbox
-Conent-Type: application/activity+json
+Content-Type: application/activity+json
 
 {
   "@context": "https://www.w3.org/ns/activitystreams",
@@ -15,7 +15,7 @@ Conent-Type: application/activity+json
 The `$object` property is the object from the **Follow** example without `$object.@context`.
 ```
 POST /user/{username}/outbox
-Conent-Type: application/activity+json
+Content-Type: application/activity+json
 
 {
     "@context": "https://www.w3.org/ns/activitystreams",
