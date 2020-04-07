@@ -23,9 +23,9 @@ Conent-Type: application/activity+json
     "type": "Undo",
     "to": "https://mastodon.social/users/pascalmyself",
     "object": {
-    	"type": "Follow",
+      "type": "Follow",
       "to": "https://mastodon.social/users/pascalmyself",
-    	"object": "https://mastodon.social/users/pascalmyself" 
+      "object": "https://mastodon.social/users/pascalmyself" 
     }
 }
 ```
