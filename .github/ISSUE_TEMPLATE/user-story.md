@@ -16,3 +16,7 @@ Any additional comments
 ## Tasks
 
 - [ ] link tasks from other repositories by copying their link here
+
+## Time tracking
+* Estimatin: ?h
+* Effective: 
