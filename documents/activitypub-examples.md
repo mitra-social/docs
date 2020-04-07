@@ -5,7 +5,6 @@ Conent-Type: application/activity+json
 
 {
   "@context": "https://www.w3.org/ns/activitystreams",
-  "summary": "Sally followed John",
   "type": "Follow",
   "to": "https://mastodon.social/users/pascalmyself",
   "object": "https://mastodon.social/users/pascalmyself"
@@ -25,6 +24,7 @@ Conent-Type: application/activity+json
     "to": "https://mastodon.social/users/pascalmyself",
     "object": {
     	"type": "Follow",
+      "to": "https://mastodon.social/users/pascalmyself",
     	"object": "https://mastodon.social/users/pascalmyself" 
     }
 }
