@@ -1,5 +1,5 @@
 # Follow
-```json
+```
 POST /user/{username}/outbox
 Conent-Type: application/activity+json
 
@@ -13,7 +13,7 @@ Conent-Type: application/activity+json
 
 # Unfollow
 The `$object` property is the object from the **Follow** example without `$object.@context`.
-```json
+```
 POST /user/{username}/outbox
 Conent-Type: application/activity+json
 
