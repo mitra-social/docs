@@ -1,5 +1,8 @@
 # Follow
 ```json
+POST /user/{username}/outbox
+Conent-Type: application/activity+json
+
 {
   "@context": "https://www.w3.org/ns/activitystreams",
   "summary": "Sally followed John",
@@ -10,8 +13,10 @@
 
 # Unfollow
 The `$object` property is the object from the **Follow** example without `$object.@context`.
-
 ```json
+POST /user/{username}/outbox
+Conent-Type: application/activity+json
+
 {
     "@context": "https://www.w3.org/ns/activitystreams",
     "summary": "TiMESPLiNTER unfollowed",
