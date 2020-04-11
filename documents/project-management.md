@@ -21,12 +21,13 @@
 - Javascript Developer
 
 ## Milestones
+
 ![Usetr](./stuff/project-mitra-timeline.jpg)
 
 ## Other framework conditions
 
 ## Meetings
 
-- [29.02.2020](./minutes/2020-02-29.md)
+- [05.03.2020](./minutes/2020-03-05.md)
 - [02.04.2020](./minutes/2020-04-02.md)
 - [17.04.2020](./minutes/2020-04-17.md)
