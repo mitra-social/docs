@@ -26,3 +26,7 @@
 ## Other framework conditions
 
 ## Meetings
+
+- [29.02.2020](./minutes/2020-02-29.md)
+- [02.04.2020](./minutes/2020-04-02.md)
+- [17.04.2020](./minutes/2020-04-17.md)
