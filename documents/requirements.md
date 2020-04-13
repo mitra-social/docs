@@ -1,6 +1,6 @@
-# Funktionale Anforderungen
+# Functional requirements
 
-## User Case
+## Use Case
 
 ### Template
 
@@ -24,7 +24,7 @@
 
 ### User Case
 
-![Usetr](./stuff/use-case-user.png)
+![use case user](./stuff/use-case-user.png)
 Section | Content
 ------------------------| -------------
 Identifier | UC-01
@@ -223,16 +223,15 @@ Quality |
 | Postcondition    | Token is correct.                                                                                            |
 | Quality          |
 
-• Funktionen (Use Cases)
 • Geschäftsregeln
 • Daten
 • Zustände
 • Fehlerbehandlung
 • Schnittstellen
 
-# Nich funktionale Anforderungen
+# Non-functional requirements
 
-## Qualitätsanforderungen
+## Quality requirements
 
 • Performanz
 • Sicherheit
@@ -241,14 +240,14 @@ Quality |
 • Änderbarkeit
 • Übertragbarkeit
 
-## Randbedingungen
+## Boundary conditions
 
 • Entwicklungsprozess
-• Budget
-• Termine
-• Team
 • Gesetze
 • Normen
 • Guidelines
 • Standards
-• Betrieb
+
+# Data structures of the system interfaces
+
+# Class descriptions
