@@ -1,6 +1,6 @@
 # Project Mitra
 
-## Project order
+## Project period
 
 | Project start | End of project |
 | ------------- | -------------- |
@@ -8,11 +8,26 @@
 
 ## Project goals
 
+Software is to be developed which enables the following goals and functions:
+
+- You want to be able to register and then log in with your user.
+- User should receive posts from other users who are followed.
+- Contemporary and simple design.
+- Easy handling.
+
 ## Justification, benefits
+
+- Many implementations of the Standard ActivityPub are clones from well-known social media, you want to get the best stuff of them all.
+- Reduce the limitations of how to implement activity pub.
 
 ## Non-goals
 
+- Additional functions should be implemented after the master's thesis, as there is not enough time for a comprehensive implementation of the ActivityPub standard.
+
 ## Criteria for the successful end of the project
+
+- A working installation where a logged in user can see posts.
+- Documentation complete.
 
 ## Necessary core project team
 
@@ -23,8 +38,6 @@
 ## Milestones
 
 ![Usetr](./stuff/project-mitra-timeline.jpg)
-
-## Other framework conditions
 
 ## Meetings
 

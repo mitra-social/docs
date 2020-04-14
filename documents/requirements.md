@@ -9,7 +9,6 @@
 | Identifier          | -       |
 | Name                | -       |
 | Author              | -       |
-| Priorität           | -       |
 | Priority            | -       |
 | Criticality         | -       |
 | Origin              | -       |
@@ -28,13 +27,13 @@
 Section | Content
 ------------------------| -------------
 Identifier | UC-01
-Name | Registry
+Name | Registration
 Author | Pascal, Franco
 Priority | High importance for system success. Technological risk low
 Criticality | High
 Responsibility | Pascal, Franco
 Description | The user registers on the Mitra site with his email, preferred username and password.
-Triggering Event | Click on the registration button.
+Triggering iEvent | Click on the registration button.
 Actor | User
 Precondition | Email or preferred username is not registered.
 Exception scenarios | Email or preferred username already exists. The repeating password does not match.
@@ -100,13 +99,29 @@ Quality |
 | Exception scenarios | The repeating password does not match.                          |
 | Quality             |
 
+| Section             | Content                                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Identifier          | UC-06                                                                                                           |
+| Name                | Forgot Password                                                                                                 |
+| Author              | Pascal, Franco                                                                                                  |
+| Priority            | Low importance for system success. Technological risk high                                                      |
+| Criticality         | Low                                                                                                             |
+| Responsibility      | Pascal, Franco                                                                                                  |
+| Description         | Wenn der User sein Passwort nicht mehr weiss, so kann er das Passwort mit der Angabe seines Email zurücksetzen. |
+| Triggering Event    | Click the Forgot Password Link.                                                                                 |
+| Actor               | User                                                                                                            |
+| Postcondition       | E-Mail exists.                                                                                                  |
+| Exception scenarios | The email does not exist.                                                                                       |
+
+| Quality
+
 ### Posts Case
 
 ![Usetr](./stuff/use-case-posts.png)
 Section | Content
 ------------------------| -------------
-Identifier | UC-06
-Name | Show posts
+Identifier | UC-07
+Name | Show Posts
 Author | Pascal, Franco
 Priority | High importance for system success. Technological risk high
 Criticality | High
@@ -120,8 +135,8 @@ Quality |
 
 | Section          | Content                                                                  |
 | ---------------- | ------------------------------------------------------------------------ |
-| Identifier       | UC-07                                                                    |
-| Name             | Create post                                                              |
+| Identifier       | UC-08                                                                    |
+| Name             | Create Post                                                              |
 | Author           | Pascal, Franco                                                           |
 | Priority         | Middle importance for system success. Technological risk high            |
 | Criticality      | Low                                                                      |
@@ -135,8 +150,8 @@ Quality |
 
 | Section          | Content                                                       |
 | ---------------- | ------------------------------------------------------------- |
-| Identifier       | UC-08                                                         |
-| Name             | Edit post                                                     |
+| Identifier       | UC-09                                                         |
+| Name             | Edit Post                                                     |
 | Author           | Pascal, Franco                                                |
 | Priority         | Middle importance for system success. Technological risk high |
 | Criticality      | Low                                                           |
@@ -150,8 +165,8 @@ Quality |
 
 | Section          | Content                                                       |
 | ---------------- | ------------------------------------------------------------- |
-| Identifier       | UC-09                                                         |
-| Name             | Delete post                                                   |
+| Identifier       | UC-10                                                         |
+| Name             | Delete Post                                                   |
 | Author           | Pascal, Franco                                                |
 | Priority         | Middle importance for system success. Technological risk high |
 | Criticality      | Low                                                           |
@@ -165,7 +180,7 @@ Quality |
 
 | Section          | Content                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
-| Identifier       | UC-10                                                                         |
+| Identifier       | UC-11                                                                         |
 | Name             | Fetch data from outboxes                                                      |
 | Author           | Pascal, Franco                                                                |
 | Priority         | High importance for system success. Technological risk high                   |
@@ -182,7 +197,7 @@ Quality |
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
-| Identifier       | UC-11                                                           |
+| Identifier       | UC-12                                                           |
 | Name             | Follow actor                                                    |
 | Author           | Pascal, Franco                                                  |
 | Priority         | Middle importance for system success. Technological risk middle |
@@ -196,7 +211,7 @@ Quality |
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
-| Identifier       | UC-12                                                           |
+| Identifier       | UC-13                                                           |
 | Name             | Unfollow actor                                                  |
 | Author           | Pascal, Franco                                                  |
 | Priority         | Middle importance for system success. Technological risk middle |
@@ -206,21 +221,6 @@ Quality |
 | Triggering Event | Click the unfollow button of the desired user.                  |
 | Actor            | User                                                            |
 | Postcondition    | Token is correct.                                               |
-| Quality          |
-
-| Section          | Content                                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------------------ |
-| Identifier       | UC-13                                                                                                        |
-| Name             | Confirm follow request                                                                                       |
-| Author           | Pascal, Franco                                                                                               |
-| Priority         | Middle importance for system success. Technological risk middle                                              |
-| Criticality      | Middle                                                                                                       |
-| Responsibility   | Pascal, Franco                                                                                               |
-| Description      | The user can accept or reject a follow request.                                                              |
-| Triggering Event | The login redirects to the home with the posts, the home link is clicked or system pulling with a intervall. |
-| Actor            | User                                                                                                         |
-| Precondition     | A follow request from another user exists                                                                    |
-| Postcondition    | Token is correct.                                                                                            |
 | Quality          |
 
 • Geschäftsregeln
