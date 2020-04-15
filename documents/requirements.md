@@ -233,20 +233,45 @@ Quality |
 
 ## Quality requirements
 
-• Performanz
-• Sicherheit
-• Zuverlässigkeit
-• Benutzbarkeit
-• Änderbarkeit
-• Übertragbarkeit
+### Availability
+
+- The system must be accessible at all times.
+
+### Reliability
+
+- The correct account is loaded when you log in
+- The system should display all posts that the user is following
+- The system should display the correct post when filtering for users
+- The system should add the right user to the following list
+
+### Performance
+
+- The response times should be less than 1 second if possible
+  ### Security
+- The system is protected by a password
+
+### Usability
+
+- The user should be able to use the application without training
+
+### Changeability
+
+- Requirements must be evolutionary
+- Benchmarked against the baseline requirements
 
 ## Boundary conditions
 
-• Entwicklungsprozess
-• Gesetze
-• Normen
-• Guidelines
-• Standards
+### Procedure
+
+- Kanban(Agile)
+  • Gesetze
+  • Normen
+  • Guidelines
+
+### Standards
+
+- [ActivityPub](https://www.w3.org/TR/activitypub/)
+- [ActivityStreams](https://www.w3.org/ns/activitystreams)
 
 # Data structures of the system interfaces
 
