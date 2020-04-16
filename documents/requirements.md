@@ -110,7 +110,7 @@ Quality |
 | Exception scenarios | The repeating password does not match.                          |
 | Quality             |
 
-| Section             | Content                                                                                                         |
+| Section             | Content                                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Identifier          | UC-06                                                                                                           |
 | Name                | Forgot Password                                                                                                 |
@@ -122,9 +122,8 @@ Quality |
 | Triggering Event    | Click the Forgot Password Link.                                                                                 |
 | Actor               | User                                                                                                            |
 | Postcondition       | E-Mail exists.                                                                                                  |
-| Exception scenarios | The email does not exist.                                                                                       |
-
-| Quality
+| Exception scenarios | The email does not exist.                                                                         |
+| Quality |
 
 ### Posts Case
 
@@ -246,7 +245,7 @@ Quality |
 
 ## Quality requirements
 
-### Availability
+### Availability
 
 - The system must be accessible at all times.
 
@@ -261,7 +260,7 @@ Quality |
 
 - The response times should be less than 1 second if possible
 
-  ### Security
+### Security
 
 - The system is protected by a password
 

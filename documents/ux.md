@@ -16,7 +16,7 @@
 
 ![Second Sketch](./wireframes/second_sketch.png)
 
-### Final Sketch
+#### Final Sketch
 ![HomeView](./wireframes/home_view.png)
 
 ### Post
