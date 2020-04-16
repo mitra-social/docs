@@ -38,7 +38,7 @@ In this repository we collect project wide documentation and issue tracking.
   - [Home](./documents/ux.md#home)
     - [First Sketch](./documents/ux.md#first-sketch)
     - [Second Sketch](./documents/ux.md#second-sketch)
-      - [Final Sketch](./documents/ux.md#final-sketch)
+    - [Final Sketch](./documents/ux.md#final-sketch)
   - [Post](./documents/ux.md#post)
   - [Author](./documents/ux.md#author)
   - [Settings](./documents/ux.md#settings)
