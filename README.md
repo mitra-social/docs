@@ -16,7 +16,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Milestones (timeline)](./documents/project-management.md#milestones)
 - [Other framework conditions](./documents/project-management.md#other-framework-conditions)
 - [Meeting](./documents/project-management.md#meeting)
-  - [29.02.2020](./documents/minutes/2020-02-29.md)
+  - [05.03.2020](./documents/minutes/2020-03-05.md)
   - [02.04.2020](./documents/minutes/2020-04-02.md)
   - [17.04.2020](./documents/minutes/2020-04-17.md)
 
@@ -47,7 +47,10 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## [Architecture & Design](./documents/arcitecture-design.md)
 
+- [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
 - [Backend](./documents/arcitecture-design.md#backend)
+- [Frontend](./documents/arcitecture-design.md#frontend)
+  - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
 
 ## Notes
 

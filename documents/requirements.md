@@ -23,7 +23,7 @@
 
 ### User Case
 
-![use case user](./stuff/use-case-user.png)
+![use case user](./use-cases/use-case-user.png)
 Section | Content
 ------------------------| -------------
 Identifier | UC-01
@@ -117,7 +117,7 @@ Quality |
 
 ### Posts Case
 
-![Usetr](./stuff/use-case-posts.png)
+![Usetr](./use-cases/use-case-posts.png)
 Section | Content
 ------------------------| -------------
 Identifier | UC-07
@@ -193,7 +193,7 @@ Quality |
 
 ### Follow Case
 
-![Usetr](./stuff/use-case-follow.png)
+![Usetr](./use-cases/use-case-follow.png)
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
@@ -223,11 +223,13 @@ Quality |
 | Postcondition    | Token is correct.                                               |
 | Quality          |
 
-• Geschäftsregeln
-• Daten
-• Zustände
-• Fehlerbehandlung
-• Schnittstellen
+## Zustände
+
+// TODO:
+
+## Data structures of the system interfaces
+
+- [ActivityStreams Object](https://www.w3.org/ns/activitystreams#class-definitions)
 
 # Non-functional requirements
 
@@ -247,7 +249,9 @@ Quality |
 ### Performance
 
 - The response times should be less than 1 second if possible
+
   ### Security
+
 - The system is protected by a password
 
 ### Usability
@@ -264,15 +268,8 @@ Quality |
 ### Procedure
 
 - Kanban(Agile)
-  • Gesetze
-  • Normen
-  • Guidelines
 
 ### Standards
 
 - [ActivityPub](https://www.w3.org/TR/activitypub/)
 - [ActivityStreams](https://www.w3.org/ns/activitystreams)
-
-# Data structures of the system interfaces
-
-# Class descriptions
