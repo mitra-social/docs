@@ -14,7 +14,6 @@ In this repository we collect project wide documentation and issue tracking.
 - [Criteria for the successful end of the project](./documents/project-management.md#criteria-for-the-successful-end-of-the-project)
 - [Necessary core project team](./documents/project-management.md#necessary-core-project-team)
 - [Milestones (timeline)](./documents/project-management.md#milestones)
-- [Other framework conditions](./documents/project-management.md#other-framework-conditions)
 - [Meeting](./documents/project-management.md#meeting)
   - [05.03.2020](./documents/minutes/2020-03-05.md)
   - [02.04.2020](./documents/minutes/2020-04-02.md)
