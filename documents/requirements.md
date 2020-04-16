@@ -234,7 +234,7 @@ Quality |
 
 ## Quality requirements
 
-### Availability
+### Availability
 
 - The system must be accessible at all times.
 
@@ -249,7 +249,7 @@ Quality |
 
 - The response times should be less than 1 second if possible
 
-  ### Security
+### Security
 
 - The system is protected by a password
 
