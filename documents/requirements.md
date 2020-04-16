@@ -1,3 +1,14 @@
+# Systemabgrenzung
+
+## System context
+
+![system context](./diagrams/system-context.svg)
+
+## Actors
+
+### User
+The user is a natural person who wants to know what's going on in the world
+
 # Functional requirements
 
 ## Use Case
