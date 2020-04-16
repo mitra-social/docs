@@ -24,7 +24,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Functional requirements](./documents/requirements.md#functional-requirements)
   - [Use Case](./documents/requirements.md#use-case)
     - [User Case](./documents/requirements.md#user-case)
-    - [Posts Case](./documents/requirements.md#post-case)
+    - [Posts Case](./documents/requirements.md#posts-case)
     - [Follow Case](./documents/requirements.md#follow-case)
 - [Non-functional requirements](./documents/requirements.md#non-functional-requirements)
   - [Quality requirements](./documents/requirements.md#quality-requirements)
