@@ -35,7 +35,7 @@ Software is to be developed which enables the following goals and functions:
 - PHP Developer
 - Javascript Developer
 
-## Risks analysis
+## Risk analysis
 
 ### Risks
 
@@ -47,6 +47,12 @@ Software is to be developed which enables the following goals and functions:
 * **RA-01** Slow third parties - Due to the decentralized approach of the project there is the possbility that remote servers are responding very slow or not at all.
 * **RA-02** None-standard conform third parties - Due to the decentralized approach of the project and various implementations of the protocol on different servers there is the possibility that server instances not always behave the same and don't implement the ActivityPub standard properly which could lead to bugs and missing information in our application.
 
+| Risk No. | Impact | Likelihood |
+| --- | --- | --- |
+| RP-01 | **high** | _small_ |
+| RP-02 | medium | medium |
+| RA-01 | **high** | **high** |
+| RA-02 | _small_ | **high** |
 
 ### Measures
 
