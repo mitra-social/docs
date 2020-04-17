@@ -35,6 +35,12 @@ Software is to be developed which enables the following goals and functions:
 - PHP Developer
 - Javascript Developer
 
+## Risks & measures
+
+* **R-01** Unknown protocol ActivityPub - No project member has ever worked with this protocol so the risk is that we don't manage to get it working at all.
+* **R-02** Slow third parties - Due to the decentralized approach of the project there is the possbility that remote servers are responding very slow or not at all
+* **R-03** None-standard conform third parties - Die to the decentralized approach of the project and various implementations of the protocol on different servers there is the possibility that server instances not always behave the same and don't implement the ActivityPub standard properly.
+
 ## Milestones
 
 ![Usetr](./stuff/project-mitra-timeline.jpg)
