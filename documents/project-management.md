@@ -35,7 +35,7 @@ Software is to be developed which enables the following goals and functions:
 - PHP Developer
 - Javascript Developer
 
-## Milestones
+## Milestones
 
 ![Usetr](./stuff/project-mitra-timeline.jpg)
 
