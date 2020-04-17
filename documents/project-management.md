@@ -35,12 +35,14 @@ Software is to be developed which enables the following goals and functions:
 - PHP Developer
 - Javascript Developer
 
-## Risks & measures
+## Risks analysis
 
+### Risks
 * **R-01** Unknown protocol ActivityPub - No project member has ever worked with this protocol so the risk is that we don't manage to get it working at all.
 * **R-02** Slow third parties - Due to the decentralized approach of the project there is the possbility that remote servers are responding very slow or not at all.
 * **R-03** None-standard conform third parties - Due to the decentralized approach of the project and various implementations of the protocol on different servers there is the possibility that server instances not always behave the same and don't implement the ActivityPub standard properly.
 
+### Measures
 * **M-01**
 * **M-02** Calls to third parties should be made asynchronously to prevent slow response times on our implementation.
 * **M-03** The ActivityPub standard implementation on our side should be as complete as possible for the implemented use-cases so we can cover all variations of requests/responses. We need to check the major other ActicityPub projects and test if they behave according to the standard and if not maybe implement some fallbacks by compromising the proper implementation of the standard on our side as less as possible.
