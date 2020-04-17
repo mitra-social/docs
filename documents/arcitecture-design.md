@@ -1,11 +1,12 @@
 # Architecture & Design
 
-## Block view level 1
+## Backend
+
+### Block view level 1
 
 ![Class diagram](./diagrams/architecture-block-view-level-1.svg)
 
-## Backend
-
+### Class diagram
 ![Class diagram](./diagrams/class-diagram.svg)
 
 ## Frontend
