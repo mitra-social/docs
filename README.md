@@ -1,23 +1,59 @@
-[![GitHub issues open](https://img.shields.io/github/issues/mitra-social/docs.svg?maxAge=2592000)]() 
+[![GitHub issues open](https://img.shields.io/github/issues/mitra-social/docs.svg?maxAge=2592000)]()
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/mitra-social/docs.svg?maxAge=2592000)]()
 
 # Documentation
+
 In this repository we collect project wide documentation and issue tracking.
 
-## Meetings
-* [29.02.2020](./documents/minutes/2020-02-29.md)
-* [02.04.2020](./documents/minutes/2020-04-02.md)
-* [17.04.2020](./documents/minutes/2020-04-17.md)
+## [Project Management](./documents/project-management.md)
 
-## Project timeline
-![Visualized timeline](./diagrams/timeline.svg)
+- [Project order](./documents/project-management.md#project-order)
+- [Project goals](./documents/project-management.md#project-goals)
+- [Justification, benefits](./documents/project-management.md#justification-benefits)
+- [Non-goals](./documents/project-management.md#non-goals)
+- [Criteria for the successful end of the project](./documents/project-management.md#criteria-for-the-successful-end-of-the-project)
+- [Necessary core project team](./documents/project-management.md#necessary-core-project-team)
+- [Risk analysis](https://github.com/mitra-social/mitra-docs/blob/doc/project-requirements/documents/project-management.md#risks-analysis)
+- [Milestones (timeline)](./documents/project-management.md#milestones)
+- [Meeting](./documents/project-management.md#meeting)
+  - [05.03.2020](./documents/minutes/2020-03-05.md)
+  - [02.04.2020](./documents/minutes/2020-04-02.md)
+  - [17.04.2020](./documents/minutes/2020-04-17.md)
 
-## Documents
+## [Requirements](./documents/requirements.md)
 
-* [Brainstorming](./documents/brainstorming.md)
-* [Wireframes](./wireframes/wireframes.md)
+- [Functional requirements](./documents/requirements.md#functional-requirements)
+  - [Use Case](./documents/requirements.md#use-case)
+    - [User Case](./documents/requirements.md#user-case)
+    - [Posts Case](./documents/requirements.md#posts-case)
+    - [Follow Case](./documents/requirements.md#follow-case)
+- [Non-functional requirements](./documents/requirements.md#non-functional-requirements)
+  - [Quality requirements](./documents/requirements.md#quality-requirements)
+  - [Boundary conditions](./documents/requirements.md#boundary-conditions)
 
-### Backend
+## [UX](./documents/ux.md)
 
-#### Class diagram
-![Class diagram](./diagrams/class-diagram.svg)
+- [Wireframe](./documents/ux.md#wireframe)
+  - [Login](./documents/ux.md#login)
+  - [Home](./documents/ux.md#home)
+    - [First Sketch](./documents/ux.md#first-sketch)
+    - [Second Sketch](./documents/ux.md#second-sketch)
+    - [Final Sketch](./documents/ux.md#final-sketch)
+  - [Post](./documents/ux.md#post)
+  - [Author](./documents/ux.md#author)
+  - [Settings](./documents/ux.md#settings)
+    - [Profile](./documents/ux.md#profile)
+    - [Followers-Following](./documents/ux.md#followers-following)
+
+## [Architecture & Design](./documents/arcitecture-design.md)
+
+- [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
+- [Backend](./documents/arcitecture-design.md#backend)
+- [Frontend](./documents/arcitecture-design.md#frontend)
+  - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
+
+## Notes
+
+- [Backend](./documents/backend-notes.md)
+
+## [Brainstorming](./documents/brainstorming.md)
