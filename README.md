@@ -52,6 +52,8 @@ In this repository we collect project wide documentation and issue tracking.
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
 
+## [Development Process](./documents/development-process.md)
+
 ## Notes
 
 - [Backend](./documents/backend-notes.md)
