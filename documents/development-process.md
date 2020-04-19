@@ -5,13 +5,13 @@
 3. Grooming: The user stories get groomed and estimated. There are technical and non-technical discussion/clarifications and maybe some refinements of the user story taking place during the grooming.
 4. Selecting for development: User stories that fulfill the definition of ready (DoR) eventually get assigned to a sprint.
 5. If a user story is assigned to sprint it will be either pulled into the [Project Board](https://github.com/orgs/mitra-social/projects/2) as soon as the sprint starts or rescheduled.
-7. Optionally technical tasks get created for frontend and backend and linked back to the user story and added to the [Development Project Board](https://github.com/orgs/mitra-social/projects/1).
-6. Development: Necessary code gets developed and tested through integration and/or unit tests.
-7. A Pull Request gets opened against the `master` branch.
-8. Changes get reviewed by another developer.
-9. As soon as the new code passes code style, static analaysis and the tests pass (ensured by CI) it can be merged into `master` branch.
-10. For the backend repository the `master` branch gets automatically deployed to the staging enviornmen on Heroku (https://mitra-social.herokuapp.com)  once there are new changes merged into it. There's no automated deployment of the frontend repository yet.
-11. Requirements get verified by the owner of the user story.
+6. Optionally technical tasks get created for frontend and backend and linked back to the user story and added to the [Development Project Board](https://github.com/orgs/mitra-social/projects/1).
+7. Development: Necessary code gets developed and tested through integration and/or unit tests.
+8. A Pull Request gets opened against the `master` branch.
+9. Changes get reviewed by another developer.
+10. As soon as the new code passes code style, static analaysis and the tests pass (ensured by CI) it can be merged into `master` branch.
+11. For the backend repository the `master` branch gets automatically deployed to the staging enviornmen on Heroku (https://mitra-social.herokuapp.com)  once there are new changes merged into it. There's no automated deployment of the frontend repository yet.
+12. Requirements get verified by the owner of the user story.
 
 ## CI
 Powered by Travis CI: https://travis-ci.org/github/mitra-social
