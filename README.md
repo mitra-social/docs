@@ -47,10 +47,10 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## [Architecture & Design](./documents/arcitecture-design.md)
 
-- [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
 - [Backend](./documents/arcitecture-design.md#backend)
-- [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
+- [Frontend](./documents/arcitecture-design.md#frontend)
+  - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
 
 ## Notes
 
