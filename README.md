@@ -53,7 +53,11 @@ In this repository we collect project wide documentation and issue tracking.
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
 
 ## [Development Process](./documents/development-process.md)
-
+- [Flow](./documents/development-process.md#flow)
+- [CI](./documents/development-process.md#flow)
+- [CD](./documents/development-process.md#flow)
+- [Definition of Ready (DoR)](./documents/development-process.md#flow)
+- [Definition of Done (DoD)](./documents/development-process.md#flow)
 ## Notes
 
 - [Backend](./documents/backend-notes.md)
