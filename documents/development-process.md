@@ -4,20 +4,29 @@
 2. [User story 📓](https://github.com/mitra-social/mitra-docs/issues?q=is%3Aissue+label%3A%22user+story+%F0%9F%93%93%22): If the idea from step one gets evaluated and seems to be duable as well as important to do it becomes a user story. 
 3. Grooming: The user stories get groomed and estimated. There are technical and non-technical discussion/clarifications and maybe some refinements of the user story taking place during the grooming.
 4. Selecting for development: User stories that fulfull the definition of ready (DoR) eventually get pulled into a sprint.
-5. Development: 
+5. Development: Necessary code gets developed and tested through integration and/or unit tests.
+6. A Pull Request gets opened against the `master` branch.
+7. Changes get reviewed by another developer.
+8. As soon as the new code passes code style, static analaysis and the tests pass (ensured by CI) it can be merged into `master` branch.
+9. For the backend repository the `master` branch gets automatically deployed to the staging enviornmen on Heroku (https://mitra-social.herokuapp.com)  once there are new changes merged into it. There's no automated deployment of the frontend repository yet.
+10. Requirements get verified by the owner of the user story.
 
 ## CI
+Powered by Travis CI: https://travis-ci.org/github/mitra-social
+
+* Backend: https://travis-ci.org/github/mitra-social/mitra-backend
+* Frontend: https://travis-ci.org/github/mitra-social/mitra-frontend
 
 ## CD
+* Backend: Heroku -> https://mitra-social.herokuapp.com
+* Frontend: ~
 
-## Appendix
-
-### Definition of Ready (DoR)
+## Definition of Ready (DoR)
 - User story is groomed and reviewed by developers from core team
 - User story is estimated
 - User story contains at least one acceptance criteria
 
-### Definition of Done (DoD)
+## Definition of Done (DoD)
 - User story is completely implemented
 - The main flow are tested through integration and/or unit tests
 - Newly written code passes static analysis and code style check
