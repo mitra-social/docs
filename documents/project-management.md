@@ -68,6 +68,8 @@ Software is to be developed which enables the following goals and functions:
 ## Milestones
 
 ![Usetr](./stuff/project-mitra-timeline.jpg)
+* **green:** done
+* **blue:** open
 
 ## Meetings
 
