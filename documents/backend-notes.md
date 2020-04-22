@@ -1,5 +1,8 @@
 # Backend notes
 
+## Interesting links
+* [ActivityPub implementation notes/documentation for mastodon](https://docs.joinmastodon.org/spec/activitypub/)
+
 ## Activity Pub type conversion
 ### Link type
 A link type can be represented as a string without loosing information, if only the `href` attribute is set.
