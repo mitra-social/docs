@@ -35,7 +35,7 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Wireframe](./documents/ux.md#wireframe)
   - [Login](./documents/ux.md#login)
-  - [Sign Up](./documents/ux.md#signup)
+  - [Sign Up](./documents/ux.md#sign-up)
   - [Home](./documents/ux.md#home)
     - [First Sketch](./documents/ux.md#first-sketch)
     - [Second Sketch](./documents/ux.md#second-sketch)
