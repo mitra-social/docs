@@ -35,6 +35,7 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Wireframe](./documents/ux.md#wireframe)
   - [Login](./documents/ux.md#login)
+  - [Sign Up](./documents/ux.md#signup)
   - [Home](./documents/ux.md#home)
     - [First Sketch](./documents/ux.md#first-sketch)
     - [Second Sketch](./documents/ux.md#second-sketch)
@@ -53,11 +54,13 @@ In this repository we collect project wide documentation and issue tracking.
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
 
 ## [Development Process](./documents/development-process.md)
+
 - [Flow](./documents/development-process.md#flow)
 - [CI](./documents/development-process.md#flow)
 - [CD](./documents/development-process.md#flow)
 - [Definition of Ready (DoR)](./documents/development-process.md#flow)
 - [Definition of Done (DoD)](./documents/development-process.md#flow)
+
 ## Notes
 
 - [Backend](./documents/backend-notes.md)

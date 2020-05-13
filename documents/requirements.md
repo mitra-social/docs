@@ -110,7 +110,7 @@ Quality |
 | Exception scenarios | The repeating password does not match.                          |
 | Quality             |
 
-| Section             | Content                                                         |
+| Section             | Content                                                                                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------- |
 | Identifier          | UC-06                                                                                                           |
 | Name                | Forgot Password                                                                                                 |
@@ -122,8 +122,8 @@ Quality |
 | Triggering Event    | Click the Forgot Password Link.                                                                                 |
 | Actor               | User                                                                                                            |
 | Postcondition       | E-Mail exists.                                                                                                  |
-| Exception scenarios | The email does not exist.                                                                         |
-| Quality |
+| Exception scenarios | The email does not exist.                                                                                       |
+| Quality             |
 
 ### Posts Case
 
@@ -233,9 +233,11 @@ Quality |
 | Postcondition    | Token is correct.                                               |
 | Quality          |
 
-## Zustände
+## Conditions
 
-// TODO:
+### Naming Condition
+
+![namingCondition](./diagrams/naming-condition.svg)
 
 ## Data structures of the system interfaces
 

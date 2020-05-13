@@ -6,6 +6,10 @@
 
 ![LoginView](./wireframes/login_view.png)
 
+### Sign Up
+
+![SignUp](./wireframes/signup.png)
+
 ### Home
 
 #### First Sketch
@@ -17,6 +21,7 @@
 ![Second Sketch](./wireframes/second_sketch.png)
 
 #### Final Sketch
+
 ![HomeView](./wireframes/home_view.png)
 
 ### Post
