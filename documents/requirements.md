@@ -1,4 +1,4 @@
-# Systemabgrenzung
+# System definition
 
 ## System context
 
