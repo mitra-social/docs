@@ -17,6 +17,7 @@
 ![Class diagram](./diagrams/class-diagram.svg)
 
 ### Activity Diagramm
+#### Message bus - write into inbox
 
 ![message bus write into inbox](./diagrams/message-bus_write-into-inbox.jpg)
 
