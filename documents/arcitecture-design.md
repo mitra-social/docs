@@ -21,7 +21,7 @@
 
 ![message bus write into inbox](./diagrams/message-bus_write-into-inbox.jpg)
 
-Description coming soon
+Description :soon:
 
 ## Frontend
 
@@ -41,7 +41,7 @@ Description coming soon
 
 ![architecture-frontend block view level 2](./diagrams/architecture-frontend-block-view-level-2.svg)
 
-description coming soon
+description :soon:
 
 ### Process description
 
