@@ -133,7 +133,7 @@ description coming soon
 
 ![pull out actors add name 2](./diagrams/pull-out-actors-add-name-2.svg)
 
-##### Decisioin
+##### Decision
 
 The first version had the disadvantage that request call was in the util method and the _dump_ components have additional tasks because of the asynchronous call.
 In the second version, the various data are put together correctly in the store and therefore the Utils does not have an additional asynchrony and the _dump_ components do not need any additional logic.
