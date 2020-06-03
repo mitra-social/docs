@@ -28,6 +28,12 @@
 
 ![PostComponent](./wireframes/post_component.png)
 
+### View post with filter from following actors
+
+// TODO: explain
+
+![Following List Filter](./wireframes/following-list-filter.svg)
+
 ### Author
 
 ![AuthorComponent](./wireframes/author_component.png)

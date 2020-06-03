@@ -41,6 +41,7 @@ In this repository we collect project wide documentation and issue tracking.
     - [Second Sketch](./documents/ux.md#second-sketch)
     - [Final Sketch](./documents/ux.md#final-sketch)
   - [Post](./documents/ux.md#post)
+  - [View post with filter from following actors](./documents/ux.md#View-post-with-filter-from-following-actors)
   - [Author](./documents/ux.md#author)
   - [Settings](./documents/ux.md#settings)
     - [Profile](./documents/ux.md#profile)
