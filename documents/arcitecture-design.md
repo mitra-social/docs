@@ -17,10 +17,11 @@
 ![Class diagram](./diagrams/class-diagram.svg)
 
 ### Activity Diagramm
+#### Message bus - write into inbox
 
 ![message bus write into inbox](./diagrams/message-bus_write-into-inbox.jpg)
 
-Description coming soon
+Description :soon:
 
 ## Frontend
 
@@ -40,7 +41,7 @@ Description coming soon
 
 ![architecture-frontend block view level 2](./diagrams/architecture-frontend-block-view-level-2.svg)
 
-description coming soon
+description :soon:
 
 ### Process description
 
@@ -133,7 +134,7 @@ description coming soon
 
 ![pull out actors add name 2](./diagrams/pull-out-actors-add-name-2.svg)
 
-##### Decisioin
+##### Decision
 
 The first version had the disadvantage that request call was in the util method and the _dump_ components have additional tasks because of the asynchronous call.
 In the second version, the various data are put together correctly in the store and therefore the Utils does not have an additional asynchrony and the _dump_ components do not need any additional logic.

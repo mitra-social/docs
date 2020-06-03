@@ -51,11 +51,21 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Backend](./documents/arcitecture-design.md#backend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
+  - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm)
+    - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox) :new:
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
-
+  - [Block view level 2](./documents/arcitecture-design.md#block-view-level-2) :new:
+  - [Process description](./documents/arcitecture-design.md#process-description) :new:
+    - [Block view level 1 - Get posts](./documents/arcitecture-design.md#block-view-level-1---get-posts) :new:
+    - [Block view level 2 - Get posts: Login](./documents/arcitecture-design.md#block-view-level-2---get-posts-login) :new:
+  - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm-1) :new:
+    - [Pull out actor's add name](./documents/arcitecture-design.md#pull-out-actors-add-name) :new:
+      - [Version 1](./documents/arcitecture-design.md#version-1) :new:
+      - [Version 2](./documents/arcitecture-design.md#version-2) :new:
+      - [Decision](./documents/arcitecture-design.md#decision) :new:
+      
 ## [Development Process](./documents/development-process.md)
-
 - [Flow](./documents/development-process.md#flow)
 - [CI](./documents/development-process.md#flow)
 - [CD](./documents/development-process.md#flow)
