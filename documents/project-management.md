@@ -83,10 +83,10 @@ Software is to be developed which enables the following goals and functions:
 
 ## Project completion
 
-### What has been achieved
+### What has been achieved
 TODO
 
-### What was not achieved
+### What was not achieved
 TODO
 
 ### Conclusion
