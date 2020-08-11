@@ -21,9 +21,9 @@ In this repository we collect project wide documentation and issue tracking.
   - [17.04.2020](./documents/minutes/2020-04-17.md)
 - [Project completion](./documents/project-management.md#Project-completion)
 
-  - [What has been achieved](./documents/project-management.md#What-has-been-achieved)
-  - [What was not achieved](./documents/project-management.md#What-was-not-achieved)
-  - [Conclusion](./documents/project-management.md#Conclusion)
+  - [What has been achieved](./documents/project-management.md#what-has-been-achieved)
+  - [What was not achieved](./documents/project-management.md#what-was-not-achieved)
+  - [Conclusion](./documents/project-management.md#conclusion)
 
 ## [Requirements](./documents/requirements.md)
 
@@ -47,7 +47,7 @@ In this repository we collect project wide documentation and issue tracking.
     - [Final Sketch](./documents/ux.md#final-sketch)
   - [Post](./documents/ux.md#post)
   - [View post with filter from following actors](./documents/ux.md#View-post-with-filter-from-following-actors)
-  - [Find User Dialog](./documents/ux.md#Find–User-Dialog)
+  - [Find User Dialog](./documents/ux.md#find-user-dialog)
   - [Author](./documents/ux.md#author)
   - [Settings](./documents/ux.md#settings)
     - [Profile](./documents/ux.md#profile)
