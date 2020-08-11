@@ -17,6 +17,7 @@
 ![Class diagram](./diagrams/class-diagram.svg)
 
 ### Activity Diagramm
+
 #### Message bus - write into inbox
 
 ![message bus write into inbox](./diagrams/message-bus_write-into-inbox.jpg)
@@ -76,7 +77,7 @@ description :soon:
 - 2.0 The router directs the user to his home page with the posts.
 
 - 3.0 The components let the lifecycle created run.
-- 3.1 In the created function, the `fetchCollectio()` is called from the _CollectionStore_.
+- 3.1 In the created function, the `fetchCollection()` is called from the _CollectionStore_.
 - 3.2 `getPost()` is triggered as soon as the items in the _collectionStore_ are updated.
 
 - 4.0 The _collectionStore_ calls the _apiServer_ to receive the collection data.
@@ -138,3 +139,24 @@ description :soon:
 
 The first version had the disadvantage that request call was in the util method and the _dump_ components have additional tasks because of the asynchronous call.
 In the second version, the various data are put together correctly in the store and therefore the Utils does not have an additional asynchrony and the _dump_ components do not need any additional logic.
+
+#### Search actor with his followers and following list
+
+![process description search actor](./diagrams/process-description_search-actor.svg)
+
+- 1.0 User enters the web finger ID of the user they are looking for and click on the search button.
+- 1.1 The search result is reset when the dialog is closed.
+- 2.0 `searchActor` is a wrapper function for the store's `findActor`. The error handling of the action is handled in the wrapper.
+- 2.1 The actor is returned when the `user` state has been updated.
+- 2.2 The follower list is returned when the `followerCollectionPage` state has been updated.
+- 2.3 The following list is returned when the `followingCollectionPage` state has been updated.
+- 2.4 Reset user search data.
+- 3.0 This function calls the api to fetch the user basic information in the Fedivers with the web finger. The Fediverse object contains a URL where you can request the detailed data of the user, if the user exists. This URL is called. The actor's detailed information is set in the return. The actions for followers and following lists are called with the URL, which contains the detailed information of the actor.
+- 3.1 Calls the api for the web finger. The web finger id is given.
+- 3.2 Calls the api for a collection. The follower URL is given to the api. The collection is set to the follower state and paging is set for this collection.
+- 3.3 Calls the api for a collection. The following URL is given to the api. The collection is set to the following state and paging is set for this collection.
+- 3.4 The status of the find-user store is reset.
+- 4.0 Calls the web finger with the GET in the Fedivers using the web finger id entered by the user and return URL of searched user.
+- 4.1 Calls up the user information with the GET in Fedivers with the URL that comes from the web finger and returns a user.
+- 4.2 Calls the collection with a URL with the GET in Fedivers. An ordered collection page is returned.
+- 4.3 Calls the collection with a URL with the GET in Fedivers. An ordered collection page is returned.

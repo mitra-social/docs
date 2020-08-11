@@ -19,6 +19,11 @@ In this repository we collect project wide documentation and issue tracking.
   - [05.03.2020](./documents/minutes/2020-03-05.md)
   - [02.04.2020](./documents/minutes/2020-04-02.md)
   - [17.04.2020](./documents/minutes/2020-04-17.md)
+- [Project completion](./documents/project-management.md#Project-completion)
+
+  - [What has been achieved](./documents/project-management.md#What-has-been-achieved)
+  - [What was not achieved](./documents/project-management.md#What-was-not-achieved)
+  - [Conclusion](./documents/project-management.md#Conclusion)
 
 ## [Requirements](./documents/requirements.md)
 
@@ -42,6 +47,7 @@ In this repository we collect project wide documentation and issue tracking.
     - [Final Sketch](./documents/ux.md#final-sketch)
   - [Post](./documents/ux.md#post)
   - [View post with filter from following actors](./documents/ux.md#View-post-with-filter-from-following-actors)
+  - [Find User Dialog](./documents/ux.md#Find–User-Dialog)
   - [Author](./documents/ux.md#author)
   - [Settings](./documents/ux.md#settings)
     - [Profile](./documents/ux.md#profile)
@@ -52,20 +58,22 @@ In this repository we collect project wide documentation and issue tracking.
 - [Backend](./documents/arcitecture-design.md#backend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
   - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm)
-    - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox) :new:
+    - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox)
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
-  - [Block view level 2](./documents/arcitecture-design.md#block-view-level-2) :new:
-  - [Process description](./documents/arcitecture-design.md#process-description) :new:
-    - [Block view level 1 - Get posts](./documents/arcitecture-design.md#block-view-level-1---get-posts) :new:
-    - [Block view level 2 - Get posts: Login](./documents/arcitecture-design.md#block-view-level-2---get-posts-login) :new:
-  - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm-1) :new:
-    - [Pull out actor's add name](./documents/arcitecture-design.md#pull-out-actors-add-name) :new:
-      - [Version 1](./documents/arcitecture-design.md#version-1) :new:
-      - [Version 2](./documents/arcitecture-design.md#version-2) :new:
-      - [Decision](./documents/arcitecture-design.md#decision) :new:
-      
+  - [Block view level 2](./documents/arcitecture-design.md#block-view-level-2)
+  - [Process description](./documents/arcitecture-design.md#process-description)
+    - [Block view level 1 - Get posts](./documents/arcitecture-design.md#block-view-level-1---get-posts)
+    - [Block view level 2 - Get posts: Login](./documents/arcitecture-design.md#block-view-level-2---get-posts-login)
+  - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm-1)
+    - [Pull out actor's add name](./documents/arcitecture-design.md#pull-out-actors-add-name)
+      - [Version 1](./documents/arcitecture-design.md#version-1)
+      - [Version 2](./documents/arcitecture-design.md#version-2)
+      - [Decision](./documents/arcitecture-design.md#decision)
+    - [Search actor with his followers and following list](./documents/arcitecture-design.md#Search-actor-with-his-followers-and-following-list)
+
 ## [Development Process](./documents/development-process.md)
+
 - [Flow](./documents/development-process.md#flow)
 - [CI](./documents/development-process.md#flow)
 - [CD](./documents/development-process.md#flow)
