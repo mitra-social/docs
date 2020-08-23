@@ -84,7 +84,14 @@ Software is to be developed which enables the following goals and functions:
 ## Project completion
 
 ### What has been achieved
-TODO
+At the end of the project it was achieved that an application where you can follow other users, read posts and filter posts by user. The design is simple and should be easy to use.
+
+It looks like this in detail:
+Follow and no longer follow from other users was the only write access. The idea behind it was, to get mail you first have to follow the user who write the mail.
+
+The posts are fetched in the backend at a certain interval and the corresponding distribution to the users who leave the posts. In addition, with reply post, the post was displayed to the replied.
+
+The post can be filtered by a user. When paging the post, the filter is retained until the filter is deactivated.
 
 ### What was not achieved
 TODO
