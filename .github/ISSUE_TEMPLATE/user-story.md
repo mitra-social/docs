@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-## Acceptance criterias
+## Acceptance criteria
 * As a *[type of user]*, I want *[an action]* so that *[a reason/a value]*
 
 ## Notes

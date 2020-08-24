@@ -7,6 +7,7 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## [Project Management](./documents/project-management.md)
 
+- [Abstract](./documents/abstract.md)
 - [Project period](./documents/project-management.md#project-period)
 - [Project goals](./documents/project-management.md#project-goals)
 - [Justification, benefits](./documents/project-management.md#justification-benefits)

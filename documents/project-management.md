@@ -84,11 +84,40 @@ Software is to be developed which enables the following goals and functions:
 ## Project completion
 
 ### What has been achieved
-TODO
+At the end of the project it was achieved that an application where you can follow other users, read posts and filter posts by user. The design is simple and should be easy to use.
+
+It looks like this in detail:
+- ActivityPub standard complied with.
+- A user can register and log in. Logging out works on the front end.
+- The user can change their email and password in their settings
+- Follow and no longer follow from other users was the only write access. The idea behind it was, to get mail you first have to follow the user who write the mail.
+- The posts are fetched in the backend at a certain interval and the corresponding distribution to the users who leave the posts. In addition, with reply post, the post was displayed to the replied.
+- Images can be displayed as thumbnail in post and displayed in full size in a dialog.
+- The post can be filtered by a user. When paging the post, the filter is retained until the filter is deactivated.
+- Searching for users with the web finger id works. Some information about the searched user is also displayed.
 
 ### What was not achieved
-TODO
+Use cases with low priority have been postponed. 
+
+It looks like this in detail:
+- Automatic update of the post from the frontend. Is low priority.
+- Deleting our is not yet implemented. Is low priority.
+- Forgot password has not yet been implemented. Is low priority.
+- Retrieving an outbox of a specific user was considered obsolete and will not be implemented.
 
 ### Conclusion
 
-TODO
+The application can be used as a post feed. Users can be searched for or filtered. The user can make a minimum of adjustments to his profile.
+
+The challenge was to understand and implement the ActivityPub standard.
+The ActivityPub standard was not implemented so carefully by other servers and presented us with certain problems. Specific adjustments to other implementations must be made at a later point in time.
+
+The stabilization of the backend side more time than expected. Since also brought more and more content problems to light. This was largely remedied.
+
+In the front end, the time waster was the tests unit. because the know-how was not on a high level. Nevertheless, a test coverage of over 95% was achieved. And in the end it was an instructive part.
+
+In the course of the development it became clear that it makes sense to be able to follow other users as many variants as possible. how to search via webfinger id.
+
+The highlight was when the application could communicate with other servers for the first time and other users could display them.
+
+The structure of the backend and frontend was checked, so that the write access can easily be incorporated at a later point in time and a switch to messaging is possible.
