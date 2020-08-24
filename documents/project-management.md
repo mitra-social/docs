@@ -74,6 +74,7 @@ Software is to be developed which enables the following goals and functions:
 
 - **green:** done
 - **blue:** open
+- **orange:** not implemented
 
 ## Meetings
 
