@@ -87,14 +87,16 @@ Software is to be developed which enables the following goals and functions:
 At the end of the project it was achieved that an application where you can follow other users, read posts and filter posts by user. The design is simple and should be easy to use.
 
 It looks like this in detail:
-Follow and no longer follow from other users was the only write access. The idea behind it was, to get mail you first have to follow the user who write the mail.
-
-The posts are fetched in the backend at a certain interval and the corresponding distribution to the users who leave the posts. In addition, with reply post, the post was displayed to the replied.
-
-The post can be filtered by a user. When paging the post, the filter is retained until the filter is deactivated.
+- A user can register and log in. Logging out works on the front end.
+- The user can change their email and password in their settings
+- Follow and no longer follow from other users was the only write access. The idea behind it was, to get mail you first have to follow the user who write the mail.
+- The posts are fetched in the backend at a certain interval and the corresponding distribution to the users who leave the posts. In addition, with reply post, the post was displayed to the replied.
+- The post can be filtered by a user. When paging the post, the filter is retained until the filter is deactivated.
+- Searching for users with the web finger id works. Some information about the searched user is also displayed.
 
 ### What was not achieved
-TODO
+- User profile has really been reduced to the bare minimum.
+- Automatic update of the post from the frontend.
 
 ### Conclusion
 
