@@ -48,7 +48,6 @@ Triggering iEvent | Click on the registration button.
 Actor | User
 Precondition | Email or preferred username is not registered.
 Exception scenarios | Email or preferred username already exists. The repeating password does not match.
-Quality |
 
 | Section             | Content                                                                          |
 | ------------------- | -------------------------------------------------------------------------------- |
@@ -63,21 +62,19 @@ Quality |
 | Actor               | User                                                                             |
 | Precondition        | User has registered and knows his credential.                                    |
 | Exception scenarios | Credential is not correct.                                                       |
-| Quality             |
 
-| Section          | Content                                                    |
-| ---------------- | ---------------------------------------------------------- |
-| Identifier       | UC-03                                                      |
-| Name             | Logout                                                     |
-| Author           | Pascal, Franco                                             |
-| Priority         | High importance for system success. Technological risk low |
-| Criticality      | High                                                       |
-| Responsibility   | Pascal, Franco                                             |
-| Description      | The user logged out of the Mitra page.                     |
-| Triggering Event | Click on the logout button.                                |
-| Actor            | User                                                       |
-| Precondition     | The user is logged in.                                     |
-| Quality          |
+| Section          | Content                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Identifier       | UC-03                                                        |
+| Name             | Logout                                                       |
+| Author           | Pascal, Franco                                               |
+| Priority         | Middle importance for system success. Technological risk low |
+| Criticality      | Middle                                                       |
+| Responsibility   | Pascal, Franco                                               |
+| Description      | The user logged out of the Mitra page.                       |
+| Triggering Event | Click on the logout button.                                  |
+| Actor            | User                                                         |
+| Precondition     | The user is logged in.                                       |
 
 | Section             | Content                                                         |
 | ------------------- | --------------------------------------------------------------- |
@@ -92,15 +89,14 @@ Quality |
 | Actor               | User                                                            |
 | Postcondition       | Token is correct.                                               |
 | Exception scenarios | The repeating password does not match.                          |
-| Quality             |
 
 | Section             | Content                                                         |
 | ------------------- | --------------------------------------------------------------- |
 | Identifier          | UC-05                                                           |
 | Name                | Delete User                                                     |
 | Author              | Pascal, Franco                                                  |
-| Priority            | Middle importance for system success. Technological risk middle |
-| Criticality         | Middle                                                          |
+| Priority            | Low importance for system success. Technological risk middle    |
+| Criticality         | Low                                                             |
 | Responsibility      | Pascal, Franco                                                  |
 | Description         | The user can delete his account.                                |
 | Triggering Event    | Click the Delete button.                                        |
@@ -108,7 +104,6 @@ Quality |
 | Precondition        | The user must confirms that the account will be deleted.        |
 | Postcondition       | Token is correct.                                               |
 | Exception scenarios | The repeating password does not match.                          |
-| Quality             |
 
 | Section             | Content                                                                                                         |
 | ------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -123,7 +118,6 @@ Quality |
 | Actor               | User                                                                                                            |
 | Postcondition       | E-Mail exists.                                                                                                  |
 | Exception scenarios | The email does not exist.                                                                                       |
-| Quality             |
 
 ### Posts Case
 
@@ -141,14 +135,13 @@ Triggering Event | The login redirects to the home with the posts, the home link
 Actor | User
 Precondition | The user is login.
 Postcondition | Token is correct.
-Quality |
 
 | Section          | Content                                                                  |
 | ---------------- | ------------------------------------------------------------------------ |
 | Identifier       | UC-08                                                                    |
 | Name             | Create Post                                                              |
 | Author           | Pascal, Franco                                                           |
-| Priority         | Middle importance for system success. Technological risk high            |
+| Priority         | Low importance for system success. Technological risk high               |
 | Criticality      | Low                                                                      |
 | Responsibility   | Pascal, Franco                                                           |
 | Description      | The user selects the type of post and then fills in the desired content. |
@@ -156,14 +149,13 @@ Quality |
 | Actor            | User                                                                     |
 | Precondition     | The user is login.                                                       |
 | Postcondition    | Token is correct.                                                        |
-| Quality          |
 
 | Section          | Content                                                       |
 | ---------------- | ------------------------------------------------------------- |
 | Identifier       | UC-09                                                         |
 | Name             | Edit Post                                                     |
 | Author           | Pascal, Franco                                                |
-| Priority         | Middle importance for system success. Technological risk high |
+| Priority         | Low importance for system success. Technological risk high    |
 | Criticality      | Low                                                           |
 | Responsibility   | Pascal, Franco                                                |
 | Description      | The user can edit a desired post.                             |
@@ -171,14 +163,13 @@ Quality |
 | Actor            | User                                                          |
 | Precondition     | The user is login.                                            |
 | Postcondition    | Token is correct.                                             |
-| Quality          |
 
 | Section          | Content                                                       |
 | ---------------- | ------------------------------------------------------------- |
 | Identifier       | UC-10                                                         |
 | Name             | Delete Post                                                   |
 | Author           | Pascal, Franco                                                |
-| Priority         | Middle importance for system success. Technological risk high |
+| Priority         | Low importance for system success. Technological risk high    |
 | Criticality      | Low                                                           |
 | Responsibility   | Pascal, Franco                                                |
 | Description      | The user can delete a desired post.                           |
@@ -186,7 +177,6 @@ Quality |
 | Actor            | User                                                          |
 | Precondition     | The user is login.                                            |
 | Postcondition    | Token is correct.                                             |
-| Quality          |
 
 | Section          | Content                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
@@ -199,7 +189,6 @@ Quality |
 | Description      | The system fetches the data from the outboxes that the mitra users following. |
 | Triggering Event | Get data is triggered with a defined interval.                                |
 | Actor            | System                                                                        |
-| Quality          |
 
 ### Follow Case
 
@@ -210,14 +199,13 @@ Quality |
 | Identifier       | UC-12                                                           |
 | Name             | Follow actor                                                    |
 | Author           | Pascal, Franco                                                  |
-| Priority         | Middle importance for system success. Technological risk middle |
-| Criticality      | Middle                                                          |
+| Priority         | Height importance for system success. Technological risk middle |
+| Criticality      | Height                                                          |
 | Responsibility   | Pascal, Franco                                                  |
 | Description      | The user can follow another user.                               |
 | Triggering Event | Click the follow button of the desired user.                    |
 | Actor            | User                                                            |
 | Postcondition    | Token is correct.                                               |
-| Quality          |
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
@@ -231,7 +219,6 @@ Quality |
 | Triggering Event | Click the unfollow button of the desired user.                  |
 | Actor            | User                                                            |
 | Postcondition    | Token is correct.                                               |
-| Quality          |
 
 ## Conditions
 
