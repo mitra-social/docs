@@ -6,7 +6,7 @@
 
 ## Actors
 
-### User
+### User
 The user is a natural person who wants to know what's going on in the world
 
 # Functional requirements
