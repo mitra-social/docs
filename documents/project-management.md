@@ -74,50 +74,55 @@ Software is to be developed which enables the following goals and functions:
 
 - **green:** done
 - **blue:** open
+- **orange:** not implemented
 
 ## Meetings
 
 - [05.03.2020](./minutes/2020-03-05.md)
 - [02.04.2020](./minutes/2020-04-02.md)
 - [17.04.2020](./minutes/2020-04-17.md)
+- [30.04.2020](./minutes/2020-04-30.md)
+- [28.05.2020](./minutes/2020-05-28.md)
+- [25.06.2020](./minutes/2020-06-25.md)
+- [13.08.2020](./minutes/2020-08-13.md)
 
 ## Project completion
 
 ### What has been achieved
-At the end of the project it was achieved that an application where you can follow other users, read posts and filter posts by user. The design is simple and should be easy to use.
+At the end of the project an application was achieved with that you can follow other users, read posts and filter posts by user. A simple design and easy to use.
 
-It looks like this in detail:
-- ActivityPub standard complied with.
-- A user can register and log in. Logging out works on the front end.
+In more detail:
+- Compliant to the ActivityPub standard.
+- A user can register and log in. Logging out works on the front end side.
 - The user can change their email and password in their settings
-- Follow and no longer follow from other users was the only write access. The idea behind it was, to get mail you first have to follow the user who write the mail.
-- The posts are fetched in the backend at a certain interval and the corresponding distribution to the users who leave the posts. In addition, with reply post, the post was displayed to the replied.
+- Follow and unfollow other users was the only write access planned to be implemented and is successfully implemented.
+- The incoming activities are processed in the backend and enriched with the corresponding "in reply to" activity and user information.
 - Images can be displayed as thumbnail in post and displayed in full size in a dialog.
-- The post can be filtered by a user. When paging the post, the filter is retained until the filter is deactivated.
-- Searching for users with the web finger id works. Some information about the searched user is also displayed.
+- The post can be filtered by a user. When paging the posts, the filter is retained until the filter is deactivated.
+- Searching for users with the web finger id works. Some information about the searched user is also displayed in the search dialog.
 
 ### What was not achieved
 Use cases with low priority have been postponed. 
 
-It looks like this in detail:
-- Automatic update of the post from the frontend. Is low priority.
-- Deleting our is not yet implemented. Is low priority.
-- Forgot password has not yet been implemented. Is low priority.
-- Retrieving an outbox of a specific user was considered obsolete and will not be implemented.
+It more detail:
+- "Automatic update of the post feed from the frontend. (Due to low priority.)
+- "Deleting a user" is not yet implemented. (Due to low priority.)
+- "Forgot password" has not yet been implemented. (Due to low priority.)
+- Retrieving an outbox (on demand or within a certain interval) of a remote actor was considered obsolete and will not be implemented.
 
 ### Conclusion
 
-The application can be used as a post feed. Users can be searched for or filtered. The user can make a minimum of adjustments to his profile.
+The application can be used as an activity feed. Users can be searched for and followed. The followed users can be filtered. The user can make a minimum of adjustments to his profile. (Namely email and password.)
 
 The challenge was to understand and implement the ActivityPub standard.
-The ActivityPub standard was not implemented so carefully by other servers and presented us with certain problems. Specific adjustments to other implementations must be made at a later point in time.
+The ActivityPub standard was not implemented so carefully by other servers and presented us with certain problems. Specific adjustments to other implementations must be made at a later point in time to raise compatibility with other servers.
 
-The stabilization of the backend side more time than expected. Since also brought more and more content problems to light. This was largely remedied.
+The stabilization of the backend side took way more time than expected. Since more incoming data from different servers brought more and more content problems to light. Most common incompatbilities could be remedied.
 
-In the front end, the time waster was the tests unit. because the know-how was not on a high level. Nevertheless, a test coverage of over 95% was achieved. And in the end it was an instructive part.
+In the front end, the time waster were the unit tests. Because the know-how was not on a high level. Nevertheless, a test coverage of over 95% was achieved. And in the end it was an instructive part.
 
-In the course of the development it became clear that it makes sense to be able to follow other users as many variants as possible. how to search via webfinger id.
+In the course of the development it became clear that it makes sense to be able to follow other users in as many ways as possible. Search new actors via webfinger id or follow them through the activity feed.
 
-The highlight was when the application could communicate with other servers for the first time and other users could display them.
+The highlight was when the application could communicate with other servers for the first time and users on our server were able to follow actors on remote servers and receive their activities in the feed.
 
-The structure of the backend and frontend was checked, so that the write access can easily be incorporated at a later point in time and a switch to messaging is possible.
+The structure of the backend and frontend is prepared, so that the write access can easily be incorporated at a later point in time and a switch to asynchronous messaging is possible.
