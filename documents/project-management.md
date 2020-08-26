@@ -84,6 +84,7 @@ Software is to be developed which enables the following goals and functions:
 - [30.04.2020](./minutes/2020-04-30.md)
 - [28.05.2020](./minutes/2020-05-28.md)
 - [25.06.2020](./minutes/2020-06-25.md)
+- [13.08.2020](./minutes/2020-08-13.md)
 
 ## Project completion
 
