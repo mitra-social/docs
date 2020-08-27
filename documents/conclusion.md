@@ -89,6 +89,7 @@ Developing decentralized applications however is rather complex and many shortcu
 - Implementing a standard can be very frustrating as it's 100% sure that if 3 people implement a rather complex standard there will be incompatibilities between all 3 implementations.
 - I spent way too much time debugging incompatible servers to find out what's going wrong with our requests. And I spent way too much time implementing work arounds.
 - We couldn't achieve to create a standalone libraty to publish and consume with the ActivityPub standard as we were to busy integrating the planned features.
+- GitHub projects is still in a very early stage and barely suitable for iterative project management. I definitely would use Jira over GitHub projects.
 
 ### What did I learn from the project
 I learnt about reactive programming in PHP. Especially the limited resources on Heroku challenged me quite a lot. I had to come up with a solution for an easy to
