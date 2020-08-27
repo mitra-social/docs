@@ -24,10 +24,6 @@ In this repository we collect project wide documentation and issue tracking.
   - [17.04.2020](./documents/minutes/2020-04-17.md)
 - [Project completion](./documents/project-management.md#Project-completion)
 
-  - [What has been achieved](./documents/project-management.md#what-has-been-achieved)
-  - [What was not achieved](./documents/project-management.md#what-was-not-achieved)
-  - [Conclusion](./documents/project-management.md#conclusion)
-
 ## [Requirements](./documents/requirements.md)
 
 - [Functional requirements](./documents/requirements.md#functional-requirements)
@@ -82,6 +78,13 @@ In this repository we collect project wide documentation and issue tracking.
 - [CD](./documents/development-process.md#flow)
 - [Definition of Ready (DoR)](./documents/development-process.md#flow)
 - [Definition of Done (DoD)](./documents/development-process.md#flow)
+
+## Conclusion
+
+- [What has been achieved](./documents/project-conclusion.md#what-has-been-achieved)
+- [What was not achieved](./documents/project-conclusion.md#what-was-not-achieved)
+- [Conclusion](./documents/project-conclusion.md#conclusion)
+- [Conclusion Franco](./documents/conclusion_franco_gervasi.md)
 
 ## Notes
 
