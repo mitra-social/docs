@@ -78,6 +78,11 @@ In this repository we collect project wide documentation and issue tracking.
 - [Definition of Ready (DoR)](./documents/development-process.md#flow)
 - [Definition of Done (DoD)](./documents/development-process.md#flow)
 
+## Project status Review
+
+- [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
+- [Presentation](./documents/project-status-review/review_presentation.pdf)
+
 ## Conclusion
 
 - [What has been achieved](./documents/project-conclusion.md#what-has-been-achieved)
@@ -91,7 +96,3 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## [Brainstorming](./documents/brainstorming.md)
 
-## Project status Review
-
-- [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
-- [Presentation](./documents/project-status-review/review_presentation.pdf)
