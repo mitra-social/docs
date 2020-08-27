@@ -10,7 +10,7 @@
 8. A Pull Request gets opened against the `master` branch.
 9. Changes get reviewed by another developer.
 10. As soon as the new code passes code style, static analaysis and the tests pass (ensured by CI) it can be merged into `master` branch.
-11. For the backend repository the `master` branch gets automatically deployed to the staging enviornmen on Heroku (https://mitra-social.herokuapp.com)  once there are new changes merged into it. There's no automated deployment of the frontend repository yet.
+11. For the backend and frontend repository the `master` branch gets automatically deployed to the staging enviornmen on Heroku (see: "CD" below)  once there are new changes merged into it. There's no automated deployment of the frontend repository yet.
 12. Requirements get verified by the owner of the user story.
 
 ## CI
