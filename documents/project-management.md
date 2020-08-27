@@ -8,26 +8,26 @@
 
 ## Project goals
 
-Software is to be developed which enables the following goals and functions:
+An application has to be developed that is capable of the following functions:
 
-- You want to be able to register and then log in with your user.
-- User should receive posts from other users who are followed.
+- A potential user is able to register and then log in with the newly created user.
+- A user should receive posts from other users they're following.
 - Contemporary and simple design.
-- Easy handling.
+- Easy handling - ActivityPub for the masses.
 
 ## Justification, benefits
 
-- Many implementations of the Standard ActivityPub are clones from well-known social media, you want to get the best stuff of them all.
-- Reduce the limitations of how to implement activity pub.
+- Many implementations of the Standard ActivityPub are clones from well-known social media platforms, we want to get the best stuff of them all.
+- Reduce the limitations of how to implement the ActivityPub standard.
 
 ## Non-goals
 
-- Additional functions should be implemented after the master's thesis, as there is not enough time for a comprehensive implementation of the ActivityPub standard.
+- Additional functions should be implemented after the master thesis, as there is not enough time for a comprehensive implementation of the ActivityPub standard.
 
 ## Criteria for the successful end of the project
 
 - A working installation where a logged in user can see posts.
-- Documentation complete.
+- Documentation completed.
 
 ## Necessary core project team
 
@@ -66,11 +66,11 @@ Software is to be developed which enables the following goals and functions:
 #### Application
 
 - **MA-01** Calls to third parties should be made asynchronously to prevent slow response times on our implementation.
-- **MA-02** The ActivityPub standard implementation on our side should be as complete as possible for the implemented use-cases so we can cover all variations of requests/responses. We need to check the major other ActicityPub projects and test if they behave according to the standard and if not maybe implement some fallbacks by compromising the proper implementation of the standard on our side as less as possible. Additionally make sure that non-conform server instances don't break out application.
+- **MA-02** The ActivityPub standard implementation on our side should be as complete as possible for the implemented use-cases so we can cover all variations of requests/responses. We need to check the major other ActicityPub projects and test if they behave according to the standard and if not maybe implement some fallbacks by compromising the proper implementation of the standard on our side as less as possible. Additionally make sure that non-conform server instances don't break our application.
 
 ## Milestones
 
-![Usetr](./stuff/project-mitra-timeline.jpg)
+![Timeline Gantchart](./stuff/project-mitra-timeline.jpg)
 
 - **green:** done
 - **blue:** open
@@ -78,6 +78,7 @@ Software is to be developed which enables the following goals and functions:
 
 ## Meetings
 
+### Monthly with project members and mentor
 - [05.03.2020](./minutes/2020-03-05.md)
 - [02.04.2020](./minutes/2020-04-02.md)
 - [17.04.2020](./minutes/2020-04-17.md)
@@ -89,7 +90,7 @@ Software is to be developed which enables the following goals and functions:
 ## Project completion
 
 ### What has been achieved
-At the end of the project an application was achieved with that you can follow other users, read posts and filter posts by user. A simple design and easy to use.
+At the end of the project an application was achieved with that you can follow other users, read posts and filter posts by user. A simple design and it's easy to use.
 
 In more detail:
 - Compliant to the ActivityPub standard.
@@ -104,7 +105,7 @@ In more detail:
 ### What was not achieved
 Use cases with low priority have been postponed. 
 
-It more detail:
+In more detail:
 - "Automatic update of the post feed from the frontend. (Due to low priority.)
 - "Deleting a user" is not yet implemented. (Due to low priority.)
 - "Forgot password" has not yet been implemented. (Due to low priority.)
@@ -112,16 +113,16 @@ It more detail:
 
 ### Conclusion
 
-The application can be used as an activity feed. Users can be searched for and followed. The followed users can be filtered. The user can make a minimum of adjustments to his profile. (Namely email and password.)
+The application can be used as an activity feed. (External) users can be looked up and followed. The followed users can be filtered. The user can make a minimum of adjustments to his profile. (Namely email and password.)
 
 The challenge was to understand and implement the ActivityPub standard.
 The ActivityPub standard was not implemented so carefully by other servers and presented us with certain problems. Specific adjustments to other implementations must be made at a later point in time to raise compatibility with other servers.
 
-The stabilization of the backend side took way more time than expected. Since more incoming data from different servers brought more and more content problems to light. Most common incompatbilities could be remedied.
+The stabilization of the backend side took way more time than expected. Since more incoming data from different servers brought more and more content problems to light. Most common incompatbilities could be remedied. Additionally caching was a big topic as well to improve read performance. Especially what and how to cache.
 
-In the front end, the time waster were the unit tests. Because the know-how was not on a high level. Nevertheless, a test coverage of over 95% was achieved. And in the end it was an instructive part.
+In the front end, the time waster were the unit tests. Because the know-how was not on a very high standard. Nevertheless, a test coverage of over 95% was achieved. And in the end it was an instructive part.
 
-In the course of the development it became clear that it makes sense to be able to follow other users in as many ways as possible. Search new actors via webfinger id or follow them through the activity feed.
+During the development process it became clear that it makes sense to be able to follow other users in as many ways as possible. Search new actors via webfinger id or follow them through the activity feed.
 
 The highlight was when the application could communicate with other servers for the first time and users on our server were able to follow actors on remote servers and receive their activities in the feed.
 
