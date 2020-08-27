@@ -10,7 +10,7 @@
 
 The user is a natural person who wants to know what's going on in the world.
 
-### Server
+### Remote ActivityPub Server
 
 The server is the remote ActivityPub server. This can be your own server or a different one.
 
@@ -144,7 +144,7 @@ Exception scenarios | Email or preferred username already exists. The repeating 
 Section | Content
 ------------------------| -------------
 Identifier | UC-08
-Name | Show Posts
+Name | Show posts
 Author | Pascal, Franco
 Priority | High importance for system success. Technological risk high
 Criticality | High
@@ -179,7 +179,7 @@ Postcondition | Token is correct.
 | Responsibility   | Pascal, Franco                                                                           |
 | Description      | The server receives activities from users other servers on which the mitra user follows. |
 | Triggering Event | Get data is triggered with a defined interval.                                           |
-| Actor            | Server                                                                                   |
+| Actor            | Remote ActivityPub Server                                                                |
 
 ### Follow Case
 
