@@ -87,10 +87,11 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## Conclusion
 
-- [What has been achieved](./documents/project-conclusion.md#what-has-been-achieved)
-- [What was not achieved](./documents/project-conclusion.md#what-was-not-achieved)
-- [Conclusion](./documents/project-conclusion.md#conclusion)
-- [Conclusion Franco](./documents/conclusion_franco_gervasi.md)
+- [What has been achieved](./documents/conclusion.md#what-has-been-achieved)
+- [What was not achieved](./documents/conclusion.md#what-was-not-achieved)
+- [Conclusion](./documents/conclusion.md#conclusion)
+- [Conclusion Franco](./documents/conclusion.md#franco)
+- [Conclusion Pascal](./documents/conclusion.md#pascal)
 
 ## Notes
 
