@@ -88,3 +88,8 @@ In this repository we collect project wide documentation and issue tracking.
 - [Backend](./documents/backend-notes.md)
 
 ## [Brainstorming](./documents/brainstorming.md)
+
+## Project status Review
+
+- [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
+- [Presentation](./documents/project-status-review/review_presentation.pdf)
