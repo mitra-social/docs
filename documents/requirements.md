@@ -7,7 +7,12 @@
 ## Actors
 
 ### User
-The user is a natural person who wants to know what's going on in the world
+
+The user is a natural person who wants to know what's going on in the world.
+
+### Server
+
+The server is the remote ActivityPub server. This can be your own server or a different one.
 
 # Functional requirements
 
@@ -34,7 +39,7 @@ The user is a natural person who wants to know what's going on in the world
 
 ### User Case
 
-![use case user](./use-cases/use-case-user.png)
+![use case user](./use-cases/use-case-user.svg)
 Section | Content
 ------------------------| -------------
 Identifier | UC-01
@@ -90,41 +95,55 @@ Exception scenarios | Email or preferred username already exists. The repeating 
 | Postcondition       | Token is correct.                                               |
 | Exception scenarios | The repeating password does not match.                          |
 
-| Section             | Content                                                         |
-| ------------------- | --------------------------------------------------------------- |
-| Identifier          | UC-05                                                           |
-| Name                | Delete User                                                     |
-| Author              | Pascal, Franco                                                  |
-| Priority            | Low importance for system success. Technological risk middle    |
-| Criticality         | Low                                                             |
-| Responsibility      | Pascal, Franco                                                  |
-| Description         | The user can delete his account.                                |
-| Triggering Event    | Click the Delete button.                                        |
-| Actor               | User                                                            |
-| Precondition        | The user must confirms that the account will be deleted.        |
-| Postcondition       | Token is correct.                                               |
-| Exception scenarios | The repeating password does not match.                          |
+| Section             | Content                                                      |
+| ------------------- | ------------------------------------------------------------ |
+| Identifier          | UC-05                                                        |
+| Name                | Delete User                                                  |
+| Author              | Pascal, Franco                                               |
+| Priority            | Low importance for system success. Technological risk middle |
+| Criticality         | Low                                                          |
+| Responsibility      | Pascal, Franco                                               |
+| Description         | The user can delete his account.                             |
+| Triggering Event    | Click the Delete button.                                     |
+| Actor               | User                                                         |
+| Precondition        | The user must confirms that the account will be deleted.     |
+| Postcondition       | Token is correct.                                            |
+| Exception scenarios | The repeating password does not match.                       |
 
-| Section             | Content                                                                                                         |
-| ------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Identifier          | UC-06                                                                                                           |
-| Name                | Forgot Password                                                                                                 |
-| Author              | Pascal, Franco                                                                                                  |
-| Priority            | Low importance for system success. Technological risk high                                                      |
-| Criticality         | Low                                                                                                             |
-| Responsibility      | Pascal, Franco                                                                                                  |
-| Description         | Wenn der User sein Passwort nicht mehr weiss, so kann er das Passwort mit der Angabe seines Email zurücksetzen. |
-| Triggering Event    | Click the Forgot Password Link.                                                                                 |
-| Actor               | User                                                                                                            |
-| Postcondition       | E-Mail exists.                                                                                                  |
-| Exception scenarios | The email does not exist.                                                                                       |
+| Section             | Content                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| Identifier          | UC-06                                                                                      |
+| Name                | Forgot Password                                                                            |
+| Author              | Pascal, Franco                                                                             |
+| Priority            | Low importance for system success. Technological risk high                                 |
+| Criticality         | Low                                                                                        |
+| Responsibility      | Pascal, Franco                                                                             |
+| Description         | If the user no longer knows his password, he can reset the password by entering his email. |
+| Triggering Event    | Click the Forgot Password Link.                                                            |
+| Actor               | User                                                                                       |
+| Postcondition       | E-Mail exists.                                                                             |
+| Exception scenarios | The email does not exist.                                                                  |
+
+| Section          | Content                                                                                                                            |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Identifier       | UC-07                                                                                                                              |
+| Name             | Search User                                                                                                                        |
+| Author           | Pascal, Franco                                                                                                                     |
+| Priority         | Middle importance for system success. Technological risk high                                                                      |
+| Criticality      | Middle                                                                                                                             |
+| Responsibility   | Pascal, Franco                                                                                                                     |
+| Description      | The user enters the desired webfinger id in the search field. as a result he gets a user with his information where he can follow. |
+| Triggering Event | Click the search button.                                                                                                           |
+| Actor            | User                                                                                                                               |
+| Precondition     | The user is login.                                                                                                                 |
+| Postcondition    | Token is correct.                                                                                                                  |
 
 ### Posts Case
 
-![Usetr](./use-cases/use-case-posts.png)
+![Usetr](./use-cases/use-case-posts.svg)
 Section | Content
 ------------------------| -------------
-Identifier | UC-07
+Identifier | UC-08
 Name | Show Posts
 Author | Pascal, Franco
 Priority | High importance for system success. Technological risk high
@@ -136,67 +155,39 @@ Actor | User
 Precondition | The user is login.
 Postcondition | Token is correct.
 
-| Section          | Content                                                                  |
-| ---------------- | ------------------------------------------------------------------------ |
-| Identifier       | UC-08                                                                    |
-| Name             | Create Post                                                              |
-| Author           | Pascal, Franco                                                           |
-| Priority         | Low importance for system success. Technological risk high               |
-| Criticality      | Low                                                                      |
-| Responsibility   | Pascal, Franco                                                           |
-| Description      | The user selects the type of post and then fills in the desired content. |
-| Triggering Event | User clicks create post.                                                 |
-| Actor            | User                                                                     |
-| Precondition     | The user is login.                                                       |
-| Postcondition    | Token is correct.                                                        |
-
-| Section          | Content                                                       |
-| ---------------- | ------------------------------------------------------------- |
-| Identifier       | UC-09                                                         |
-| Name             | Edit Post                                                     |
-| Author           | Pascal, Franco                                                |
-| Priority         | Low importance for system success. Technological risk high    |
-| Criticality      | Low                                                           |
-| Responsibility   | Pascal, Franco                                                |
-| Description      | The user can edit a desired post.                             |
-| Triggering Event | The user clicks the edit button of the desired post.          |
-| Actor            | User                                                          |
-| Precondition     | The user is login.                                            |
-| Postcondition    | Token is correct.                                             |
-
-| Section          | Content                                                       |
-| ---------------- | ------------------------------------------------------------- |
-| Identifier       | UC-10                                                         |
-| Name             | Delete Post                                                   |
-| Author           | Pascal, Franco                                                |
-| Priority         | Low importance for system success. Technological risk high    |
-| Criticality      | Low                                                           |
-| Responsibility   | Pascal, Franco                                                |
-| Description      | The user can delete a desired post.                           |
-| Triggering Event | The user clicks the delete button of the desired post.        |
-| Actor            | User                                                          |
-| Precondition     | The user is login.                                            |
-| Postcondition    | Token is correct.                                             |
-
 | Section          | Content                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
-| Identifier       | UC-11                                                                         |
-| Name             | Fetch data from outboxes                                                      |
+| Identifier       | UC-09                                                                         |
+| Name             | Toggle show in reply to post                                                  |
 | Author           | Pascal, Franco                                                                |
-| Priority         | High importance for system success. Technological risk high                   |
-| Criticality      | High                                                                          |
+| Priority         | Low importance for system success. Technological risk middle                  |
+| Criticality      | Low                                                                           |
 | Responsibility   | Pascal, Franco                                                                |
-| Description      | The system fetches the data from the outboxes that the mitra users following. |
-| Triggering Event | Get data is triggered with a defined interval.                                |
-| Actor            | System                                                                        |
+| Description      | The post to which the displayed post was replied to should also be displayed. |
+| Triggering Event | The post should be made visible and invisible again with one click.           |
+| Actor            | User                                                                          |
+| Precondition     | The user is login.                                                            |
+| Postcondition    | Token is correct.                                                             |
+
+| Section          | Content                                                                                  |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| Identifier       | UC-10                                                                                    |
+| Name             | Receive activity                                                                         |
+| Author           | Pascal, Franco                                                                           |
+| Priority         | High importance for system success. Technological risk high                              |
+| Criticality      | High                                                                                     |
+| Responsibility   | Pascal, Franco                                                                           |
+| Description      | The server receives activities from users other servers on which the mitra user follows. |
+| Triggering Event | Get data is triggered with a defined interval.                                           |
+| Actor            | Server                                                                                   |
 
 ### Follow Case
 
-![Usetr](./use-cases/use-case-follow.png)
+![Usetr](./use-cases/use-case-follow.svg)
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
-| Identifier       | UC-12                                                           |
+| Identifier       | UC-11                                                           |
 | Name             | Follow actor                                                    |
 | Author           | Pascal, Franco                                                  |
 | Priority         | Height importance for system success. Technological risk middle |
@@ -209,7 +200,7 @@ Postcondition | Token is correct.
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
-| Identifier       | UC-13                                                           |
+| Identifier       | UC-12                                                           |
 | Name             | Unfollow actor                                                  |
 | Author           | Pascal, Franco                                                  |
 | Priority         | Middle importance for system success. Technological risk middle |
