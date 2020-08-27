@@ -9,8 +9,8 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Projektantrag](./documents/stuff/project_application.pdf)
 - Eigenständigkeitserklärung
-  - [Franco Gervasi](./documents/stuff/eigenstaendigkeitserklaerung_fge.pdf)
-  - [Pascal Münst](./documents/stuff/eigenstaendigkeitserklaerung_pmu.pdf)
+  - [Franco Gervasi](./documents/stuff/Eigenstaendigkeitserklaerung-fge.pdf)
+  - [Pascal Münst](./documents/stuff/Eigenstaendigkeitserklaerung-pmu.pdf)
 - [Abstract](./documents/abstract.md)
 - [Project period](./documents/project-management.md#project-period)
 - [Project goals](./documents/project-management.md#project-goals)
