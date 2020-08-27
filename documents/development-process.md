@@ -21,7 +21,7 @@ Powered by Travis CI: https://travis-ci.org/github/mitra-social
 
 ## CD
 * Backend: Heroku -> https://mitra-social.herokuapp.com
-* Frontend: ~
+* Frontend: Heroku -> https://mitra-social-frontend.herokuapp.com
 
 ## Definition of Ready (DoR)
 - User story is groomed and reviewed by developers from core team
