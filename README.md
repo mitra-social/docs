@@ -69,7 +69,7 @@ In this repository we collect project wide documentation and issue tracking.
       - [Version 1](./documents/arcitecture-design.md#version-1)
       - [Version 2](./documents/arcitecture-design.md#version-2)
       - [Decision](./documents/arcitecture-design.md#decision)
-    - [Search actor with his followers and following list](./documents/arcitecture-design.md#Search-actor-with-his-followers-and-following-list)
+    - [Search actor with their followers and following list](./documents/arcitecture-design.md#Search-actor-with-his-followers-and-following-list)
 
 ## [Development Process](./documents/development-process.md)
 
