@@ -37,8 +37,6 @@ This shows the commands and events dispatched if an activity hits the inbox endp
 * AssignContentCommand: Assign the activity to the subscribed internal user
 * ContentAssignedEvent: The activity has been subscribed successfully to the internal user
 
-### Activity Diagramm
-
 ## Frontend
 
 ### Class diagramm
