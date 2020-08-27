@@ -4,12 +4,29 @@
 
 ## Franco
 
+The work was exciting. The highlight was receiving posts from other applications where activitypub also implemented standards. Working with Pascal was great. I was able to learn a lot from him and the communication between us worked well.
+I mainly work on the frontend. Vuejs turned out to be a good framework. The longer the project took, the more the benefits of Vuejs became apparent. With vuetify you had a library with good standard components that could appear in an application. The front end can be started with mock data or a backend can be specified where the data is called.
+I am satisfied with the result. There are some points that I would do differently now than at the beginning. Of course it still has some bugs. Unfortunately the time passed in flight to fix further bugs or to improve the display.
+
 ### Positive conclusion
+
+- The display of the post that has been replied to.
+- The search for new users is well implemented.
+- Simple design
+- Mock Date and Unit test
 
 ### Negative conclusion
 
+- The data from the server / mock are processed in different components instead of centrally in the store.
+- That the application is not yet mobile enough
+- Understanding ActivitPub was very challenging.
+
 ### What did I learn from the project
 
+- Got to know Vuejs extensively
+- Write a test
+- Set up the front end via Docker
+- That I have to get better at reviewing
 
 
 ## Pascal
@@ -21,15 +38,15 @@ is guaranteed through open standards could bring us back the www we all loved ba
 Developing decentralized applications however is rather complex and many shortcuts are not possible we normally would do in a centralized service.
 
 ### Positive conclusion
-* I see the power in decentralized web solutions
-* I'm super happy that we were able to release a version that is almost fully integrated into the Fediverse and can communicate with other servers.
-* The excitement I felt through the whole master thesis as I knew when I solved on problem, the next challenge was just around to corner waiting to be solved.
-* I loved to work together with Franco. We really had the same mindset and our skills added up to each other very well.
+- I see the power in decentralized web solutions
+- I'm super happy that we were able to release a version that is almost fully integrated into the Fediverse and can communicate with other servers.
+- The excitement I felt through the whole master thesis as I knew when I solved on problem, the next challenge was just around to corner waiting to be solved.
+- I loved to work together with Franco. We really had the same mindset and our skills added up to each other very well.
 
 ### Negative conclusion
-* Implementing a standard can be very frustrating as it's 100% sure that if 3 people implement a rather complex standard there will be incompatibilities between all 3 implementations.
-* I spent way too much time debugging incompatible servers to find out what's going wrong with our requests. And I spent way too much time implementing work arounds.
-* We couldn't achieve to create a standalone libraty to publish and consume with the ActivityPub standard as we were to busy integrating the planned features.
+- Implementing a standard can be very frustrating as it's 100% sure that if 3 people implement a rather complex standard there will be incompatibilities between all 3 implementations.
+- I spent way too much time debugging incompatible servers to find out what's going wrong with our requests. And I spent way too much time implementing work arounds.
+- We couldn't achieve to create a standalone libraty to publish and consume with the ActivityPub standard as we were to busy integrating the planned features.
 
 ### What did I learn from the project
 I learnt about reactive programming in PHP. Especially the limited resources on Heroku challenged me quite a lot. I had to come up with a solution for an easy to
