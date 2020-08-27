@@ -20,10 +20,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Necessary core project team](./documents/project-management.md#necessary-core-project-team)
 - [Risk analysis](./documents/project-management.md#risk-analysis)
 - [Milestones (timeline)](./documents/project-management.md#milestones)
-- [Meeting](./documents/project-management.md#meeting)
-  - [05.03.2020](./documents/minutes/2020-03-05.md)
-  - [02.04.2020](./documents/minutes/2020-04-02.md)
-  - [17.04.2020](./documents/minutes/2020-04-17.md)
+- [Meetings](./documents/project-management.md#meetings)
 - [Project completion](./documents/project-management.md#Project-completion)
 
 ## [Requirements](./documents/requirements.md)
