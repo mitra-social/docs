@@ -45,7 +45,7 @@ This shows the commands and events dispatched if an activity hits the inbox endp
 
 ![architecture-frontend block view level 1](./diagrams/architecture-frontend-block-view-level-1.svg)
 
-- \**Router*3 — All the routes of your projects (in my case I have them in the index.js). Basically in Vue.js everything is a component. But not everything is a page. A page has a route like “/dashboard”, “/settings” or “/search”. If a component has a route it is routed.
+- **Router** — All the routes of your projects (in my case I have them in the index.js). Basically in Vue.js everything is a component. But not everything is a page. A page has a route like “/dashboard”, “/settings” or “/search”. If a component has a route it is routed.
 - **Components** — All the components of the projects that are not the main views
 - **Views** — To make the project faster to read I separate the components that are routed and put them in this folder. The components that are routed for me are more than a component since they represent pages and they have routes, I put them in “views” then when you check a page you go to this folder.
 - **Store** — The Vuex constants in mutation-type.js, the Vuex modules in the subfolder modules (which are then loaded in the index.js).
