@@ -20,7 +20,7 @@ Powered by Travis CI: https://travis-ci.org/github/mitra-social
 * Frontend: https://travis-ci.org/github/mitra-social/mitra-frontend
 
 ## CD
-Once there are changes merged into `master`branch they automatically get deployed by Heroku (for both, frontend and backend):
+Once there are changes merged into `master` branch they automatically get deployed by Heroku (for both, frontend and backend):
 
 * Backend: https://mitra-social.herokuapp.com
 * Frontend: https://mitra-social-frontend.herokuapp.com
