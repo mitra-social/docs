@@ -60,7 +60,6 @@ In this repository we collect project wide documentation and issue tracking.
     - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox)
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
-  - [Block view level 2](./documents/arcitecture-design.md#block-view-level-2)
   - [Process description](./documents/arcitecture-design.md#process-description)
     - [Block view level 1 - Get posts](./documents/arcitecture-design.md#block-view-level-1---get-posts)
     - [Block view level 2 - Get posts: Login](./documents/arcitecture-design.md#block-view-level-2---get-posts-login)
