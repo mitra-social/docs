@@ -16,13 +16,28 @@
 
 ![Class diagram](./diagrams/class-diagram.svg)
 
+### Message bus - write into inbox
+
+![message bus write into inbox](./diagrams/message-bus_write-into-inbox.png)
+
+This shows the commands and events dispatched if an activity hits the inbox endpoint of a user.
+
+* ASContentReceivedEvent: An incoming ActivityPub activity hit the user's inbox (contains the DTO)
+* AttributeContentCommand: Assign an "author" to the incoming activity
+* ContentAttributedEvent: An author has been assigned to the activity
+* ValidateContentCommand: Check the valid format of the incoming activity 
+* ContentRejectedEvent: The content is not validated successfully
+* ContentAcceptedEvent: The content has been successfully validated
+* UpdateExternalActorCommand: If the activity is of type `Actor` the corresponding actor gets updated in the local database.
+* ExternalUserUpdateEvent: The external user has been updated successfully in the local database.
+* PersistContentCommand: Store the activity in the local database
+* ContentPersistedEvent: The activity has been stored in the local database successfully
+* DereferenceCommand: Dereferences possible related activities (e.g. `inReplyTo`)
+* DereferenceEvent: Additional activity has been dereferenced
+* AssignContentCommand: Assign the activity to the subscribed internal user
+* ContentAssignedEvent: The activity has been subscribed successfully to the internal user
+
 ### Activity Diagramm
-
-#### Message bus - write into inbox
-
-![message bus write into inbox](./diagrams/message-bus_write-into-inbox.jpg)
-
-Description :soon:
 
 ## Frontend
 
