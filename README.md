@@ -8,7 +8,9 @@ In this repository we collect project wide documentation and issue tracking.
 ## [Project Management](./documents/project-management.md)
 
 - [Projektantrag](./documents/stuff/project_application.pdf)
-- [Eigenständigkeitserklärung Franco Gervasi](./documents/stuff/Eigenstaendigkeitserklaerung.pdf)
+- Eigenständigkeitserklärung
+  - [Franco Gervasi](./documents/stuff/Eigenstaendigkeitserklaerung-fge.pdf)
+  - [Pascal Münst](./documents/stuff/Eigenstaendigkeitserklaerung-pmu.pdf)
 - [Abstract](./documents/abstract.md)
 - [Project period](./documents/project-management.md#project-period)
 - [Project goals](./documents/project-management.md#project-goals)
@@ -56,11 +58,9 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Backend](./documents/arcitecture-design.md#backend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
-  - [Activity Diagramm](./documents/arcitecture-design.md#activity-diagramm)
-    - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox)
+  - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox)
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
-  - [Block view level 2](./documents/arcitecture-design.md#block-view-level-2)
   - [Process description](./documents/arcitecture-design.md#process-description)
     - [Block view level 1 - Get posts](./documents/arcitecture-design.md#block-view-level-1---get-posts)
     - [Block view level 2 - Get posts: Login](./documents/arcitecture-design.md#block-view-level-2---get-posts-login)
@@ -79,12 +79,18 @@ In this repository we collect project wide documentation and issue tracking.
 - [Definition of Ready (DoR)](./documents/development-process.md#flow)
 - [Definition of Done (DoD)](./documents/development-process.md#flow)
 
+## Project status Review
+
+- [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
+- [Presentation](./documents/project-status-review/review_presentation.pdf)
+
 ## Conclusion
 
-- [What has been achieved](./documents/project-conclusion.md#what-has-been-achieved)
-- [What was not achieved](./documents/project-conclusion.md#what-was-not-achieved)
-- [Conclusion](./documents/project-conclusion.md#conclusion)
-- [Conclusion Franco](./documents/conclusion_franco_gervasi.md)
+- [What has been achieved](./documents/conclusion.md#what-has-been-achieved)
+- [What was not achieved](./documents/conclusion.md#what-was-not-achieved)
+- [Conclusion project](./documents/conclusion.md#conclusion)
+- [Conclusion Franco](./documents/conclusion.md#franco)
+- [Conclusion Pascal](./documents/conclusion.md#pascal)
 
 ## Notes
 
@@ -92,7 +98,3 @@ In this repository we collect project wide documentation and issue tracking.
 
 ## [Brainstorming](./documents/brainstorming.md)
 
-## Project status Review
-
-- [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
-- [Presentation](./documents/project-status-review/review_presentation.pdf)

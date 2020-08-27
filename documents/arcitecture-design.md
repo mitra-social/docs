@@ -51,12 +51,6 @@ This shows the commands and events dispatched if an activity hits the inbox endp
 - **Store** — The Vuex constants in mutation-type.js, the Vuex modules in the subfolder modules (which are then loaded in the index.js).
 - **API-Client** — API client is a service for calling up data. An http request is sent to the backend server or directly to the fediverse. It is also possible to configure a mock server.
 
-#### Block view level 2
-
-![architecture-frontend block view level 2](./diagrams/architecture-frontend-block-view-level-2.svg)
-
-description :soon:
-
 ### Process description
 
 #### Block view level 1 - Get posts
