@@ -2,7 +2,7 @@
 
 ## What has been achieved
 
-At the end of the project an application was achieved with that you can follow other users, read posts and filter posts by user. A simple design and it's easy to use.
+At the end of the project an application was achieved with that you can follow other users, read posts and filter posts by user. It features a simple design and is easy to use.
 
 In more detail:
 
