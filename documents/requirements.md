@@ -44,7 +44,7 @@ We have the following general exception scenarios applying to all use cases belo
 
 ### User Case
 
-![use case user](./use-cases/use-case-user.svg)
+![use-case diagram user](./use-cases/use-case-user.svg)
 
 | Section             | Content                                                                                   |
 |---------------------| ----------------------------------------------------------------------------------------- |
@@ -144,7 +144,7 @@ We have the following general exception scenarios applying to all use cases belo
 
 ### Posts Case
 
-![Usetr](./use-cases/use-case-posts.svg)
+![Posts use-case diagram](./use-cases/use-case-posts.svg)
 
 | Section          | Content                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -187,33 +187,33 @@ We have the following general exception scenarios applying to all use cases belo
 
 ### Follow Case
 
-![Usetr](./use-cases/use-case-follow.svg)
+![Follow use-case diagram](./use-cases/use-case-follow.svg)
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
 | Identifier       | UC-11                                                           |
 | Name             | Follow actor                                                    |
 | Author           | Pascal, Franco                                                  |
-| Priority         | Height importance for system success. Technological risk middle |
-| Criticality      | Height                                                          |
+| Priority         | High importance for system success. Technological risk high     |
+| Criticality      | High                                                          |
 | Responsibility   | Pascal, Franco                                                  |
 | Description      | The user can follow another user.                               |
 | Triggering Event | Click the follow button of the desired user.                    |
 | Actor            | User                                                            |
-| Postcondition    | Token is correct.                                               |
+| Precondition     | User is logged in.                                              |
 
 | Section          | Content                                                         |
 | ---------------- | --------------------------------------------------------------- |
 | Identifier       | UC-12                                                           |
 | Name             | Unfollow actor                                                  |
 | Author           | Pascal, Franco                                                  |
-| Priority         | Middle importance for system success. Technological risk middle |
+| Priority         | Middle importance for system success. Technological risk high   |
 | Criticality      | Middle                                                          |
 | Responsibility   | Pascal, Franco                                                  |
 | Description      | The user no longer wants to follow another user.                |
 | Triggering Event | Click the unfollow button of the desired user.                  |
 | Actor            | User                                                            |
-| Postcondition    | Token is correct.                                               |
+| Precondition     | User is logged in.                                              |
 
 ## Conditions
 
