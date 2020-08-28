@@ -81,7 +81,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
 - [Presentation](./documents/project-status-review/review_presentation.pdf)
 
-## Conclusion
+## [Conclusion](./documents/conclusion.md)
 
 - [What has been achieved](./documents/conclusion.md#what-has-been-achieved)
 - [What was not achieved](./documents/conclusion.md#what-was-not-achieved)
