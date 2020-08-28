@@ -46,9 +46,9 @@ The structure of the backend and frontend is prepared, so that the write access 
 
 ## Franco
 
-The work was exciting. The highlight was receiving posts from other applications where activitypub also implemented standards. Working with Pascal was great. I was able to learn a lot from him and the communication between us worked well.
-I mainly work on the frontend. Vuejs turned out to be a good framework. The longer the project took, the more the benefits of Vuejs became apparent. With vuetify you had a library with good standard components that could appear in an application. The front end can be started with mock data or a backend can be specified where the data is called.
-I am satisfied with the result. There are some points that I would do differently now than at the beginning. Of course it still has some bugs. Unfortunately the time passed in flight to fix further bugs or to improve the display.
+The work was exciting. The highlight was receiving posts from other applications who also implement the ActivityPub standard. Working with Pascal was great. I learnt a lot from him and the communication between us worked well. 
+I mainly worked on the frontend stuff. Vue.js turned out to be a good framework for our purpose. The longer the project took, the more the benefits of Vue.js became apparent. With vuetify we had a library with good standard components that could be used in an application. The frontend can be started with mock data or a backend can be specified where the data is received from. 
+I am satisfied with the result. Of course, now that I gained a lot of knowledge in the new technologies, there are some points I would do differently. The application still has some bugs that need to be fixed. Unfortunately the time passed in flight and we didn’t had time to fix further bugs or to improve existing functionality even further.
 
 ### Positive conclusion
 
