@@ -89,9 +89,13 @@ In this repository we collect project wide documentation and issue tracking.
 - [Conclusion Franco](./documents/conclusion.md#franco)
 - [Conclusion Pascal](./documents/conclusion.md#pascal)
 
+## Final presentation
+
+- [Time schedule](./documents/final-presentation/ablauf_MAS_thesis_praesentationsablauf.pdf)
+- [Presentation](./documents/final-presentation/abschluss_presentation.pdf)
+
 ## Notes
 
 - [Backend](./documents/backend-notes.md)
 
 ## [Brainstorming](./documents/brainstorming.md)
-
