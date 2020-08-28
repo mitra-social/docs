@@ -44,12 +44,6 @@ So it was decided that a filter can be added in the backend and thus only the po
 
 ![AuthorComponent](./wireframes/author_component.svg)
 
-### Settings
-
-#### Profile
+### Profile
 
 ![settingProfile](./wireframes/setting_profile.svg)
-
-#### Followers-Following
-
-![settingFollowersFollowing](./wireframes/setting_followers-following.svg)
