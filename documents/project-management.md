@@ -66,7 +66,7 @@ An application has to be developed that is capable of the following functions:
 #### Application
 
 - **MA-01** Calls to third parties should be made asynchronously to prevent slow response times on our implementation.
-- **MA-02** The ActivityPub standard implementation on our side should be as complete as possible for the implemented use-cases so we can cover all variations of requests/responses. We need to check the major other ActicityPub projects and test if they behave according to the standard and if not maybe implement some fallbacks by compromising the proper implementation of the standard on our side as less as possible. Additionally make sure that non-conform server instances don't break our application.
+- **MA-02** The ActivityPub standard implementation on our side should be as complete as possible for the implemented use-cases so we can cover all variations of requests/responses. We need to check the major other ActicityPub projects and test if they behave according to the standard and if not maybe implement some fallbacks by compromising the proper implementation of the standard on our side as less as possible. **But first of all make sure that non-conform server instances don't break our application.**
 
 ## Milestones
 
