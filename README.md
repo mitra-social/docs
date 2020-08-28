@@ -21,7 +21,6 @@ In this repository we collect project wide documentation and issue tracking.
 - [Risk analysis](./documents/project-management.md#risk-analysis)
 - [Milestones (timeline)](./documents/project-management.md#milestones)
 - [Meetings](./documents/project-management.md#meetings)
-- [Project completion](./documents/project-management.md#Project-completion)
 
 ## [Requirements](./documents/requirements.md)
 
