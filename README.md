@@ -21,7 +21,6 @@ In this repository we collect project wide documentation and issue tracking.
 - [Risk analysis](./documents/project-management.md#risk-analysis)
 - [Milestones (timeline)](./documents/project-management.md#milestones)
 - [Meetings](./documents/project-management.md#meetings)
-- [Project completion](./documents/project-management.md#Project-completion)
 
 ## [Requirements](./documents/requirements.md)
 
@@ -55,6 +54,7 @@ In this repository we collect project wide documentation and issue tracking.
 
 - [Backend](./documents/arcitecture-design.md#backend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1)
+  - [Class diagram](./documents/arcitecture-design.md#class-diagram)
   - [Message bus - write into inbox](./documents/arcitecture-design.md#message-bus---write-into-inbox)
 - [Frontend](./documents/arcitecture-design.md#frontend)
   - [Block view level 1](./documents/arcitecture-design.md#block-view-level-1-1)
