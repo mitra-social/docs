@@ -22,7 +22,7 @@ An application has to be developed that is capable of the following functions:
 
 ## Non-goals
 
-- Additional functions should be implemented after the master thesis, as there is not enough time for a comprehensive implementation of the ActivityPub standard.
+- It's not the goal to implement the complete ActivityPub standard in this master thesis. Additional functions should be implemented after the master thesis, as there is just not enough time for a complete implementation of the ActivityPub standard.
 
 ## Criteria for the successful end of the project
 
