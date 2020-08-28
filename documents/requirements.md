@@ -223,7 +223,10 @@ We have the following general exception scenarios applying to all use cases belo
 
 ## Data structures of the system interfaces
 
-- [ActivityStreams Object](https://www.w3.org/ns/activitystreams#class-definitions)
+The data structures coming in and going out of the system are described in the following standards:
+
+- [ActivityStreams](https://www.w3.org/ns/activitystreams)
+- [ActivityPub](https://www.w3.org/TR/activitypub/)
 
 # Non-functional requirements
 
