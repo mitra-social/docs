@@ -40,19 +40,20 @@ The server is the remote ActivityPub server. This can be your own server or a di
 ### User Case
 
 ![use case user](./use-cases/use-case-user.svg)
-Section | Content
-------------------------| -------------
-Identifier | UC-01
-Name | Registration
-Author | Pascal, Franco
-Priority | High importance for system success. Technological risk low
-Criticality | High
-Responsibility | Pascal, Franco
-Description | The user registers on the Mitra site with his email, preferred username and password.
-Triggering iEvent | Click on the registration button.
-Actor | User
-Precondition | Email or preferred username is not registered.
-Exception scenarios | Email or preferred username already exists. The repeating password does not match.
+
+| Section             | Content                                                                                   |
+|---------------------| ----------------------------------------------------------------------------------------- |
+| Identifier          | UC-01                                                                                     |
+| Name                | Registration                                                                              |
+| Author              | Pascal, Franco                                                                            |
+| Priority            | High importance for system success. Technological risk low                                |
+| Criticality         | High                                                                                      |
+| Responsibility      | Pascal, Franco                                                                            |
+| Description         | The user registers on the Mitra site with his email, preferred username and password.     |
+| Triggering event    | Click on the registration button.                                                         |
+| Actor               | User                                                                                      |
+| Precondition        | Email or preferred username is not registered.                                            |
+| Exception scenarios | <ol><li>Email or preferred username already exists.</li><li>The repeating password does not match.</li></ol> |
 
 | Section             | Content                                                                          |
 | ------------------- | -------------------------------------------------------------------------------- |
@@ -62,11 +63,11 @@ Exception scenarios | Email or preferred username already exists. The repeating 
 | Priority            | High importance for system success. Technological risk low                       |
 | Criticality         | High                                                                             |
 | Responsibility      | Pascal, Franco                                                                   |
-| Description         | The user sign in with his preferred username and password on the login of mitra. |
-| Triggering Event    | User calls up the mitra page and lands on the login page.                        |
+| Description         | The user sign in with their preferred username and password on the login page.   |
+| Triggering event    | User calls up the mitra page and lands on the login page if not logged in yet.   |
 | Actor               | User                                                                             |
-| Precondition        | User has registered and knows his credential.                                    |
-| Exception scenarios | Credential is not correct.                                                       |
+| Precondition        | User has registered and knows their credentials.                                 |
+| Exception scenarios | <ol><li>Credentials are not correct.</li></ol>                                   |
 
 | Section          | Content                                                      |
 | ---------------- | ------------------------------------------------------------ |
@@ -76,24 +77,24 @@ Exception scenarios | Email or preferred username already exists. The repeating 
 | Priority         | Middle importance for system success. Technological risk low |
 | Criticality      | Middle                                                       |
 | Responsibility   | Pascal, Franco                                               |
-| Description      | The user logged out of the Mitra page.                       |
-| Triggering Event | Click on the logout button.                                  |
+| Description      | The user gets logged out of the Mitra page.                  |
+| Triggering event | Click on the logout button.                                  |
 | Actor            | User                                                         |
-| Precondition     | The user is logged in.                                       |
+| Precondition     | <ol><li>The user is logged in.</li></ol>                     |
 
 | Section             | Content                                                         |
 | ------------------- | --------------------------------------------------------------- |
 | Identifier          | UC-04                                                           |
 | Name                | Edit User                                                       |
 | Author              | Pascal, Franco                                                  |
-| Priority            | Middle importance for system success. Technological risk middle |
+| Priority            | Middle importance for system success. Technological risk low    |
 | Criticality         | Middle                                                          |
 | Responsibility      | Pascal, Franco                                                  |
-| Description         | The user can edit his personal data or his password.            |
-| Triggering Event    | User calls up the mitra page and lands on the login page.       |
+| Description         | The user can edit their personal data.                          |
+| Triggering event    | User clicks on the settings link/icon.                          |
 | Actor               | User                                                            |
 | Postcondition       | Token is correct.                                               |
-| Exception scenarios | The repeating password does not match.                          |
+| Exception scenarios | <ol><li>The repeating password does not match.</li><li>E-Mail address is invalid.</li><li>E-Mail is already registered.</li><li>Current password is missing/wrong.</li></ol> |
 
 | Section             | Content                                                      |
 | ------------------- | ------------------------------------------------------------ |
@@ -103,40 +104,40 @@ Exception scenarios | Email or preferred username already exists. The repeating 
 | Priority            | Low importance for system success. Technological risk middle |
 | Criticality         | Low                                                          |
 | Responsibility      | Pascal, Franco                                               |
-| Description         | The user can delete his account.                             |
-| Triggering Event    | Click the Delete button.                                     |
+| Description         | A user can delete their account.                             |
+| Triggering event    | Click the delete button on the settings page.                |
 | Actor               | User                                                         |
-| Precondition        | The user must confirms that the account will be deleted.     |
-| Postcondition       | Token is correct.                                            |
-| Exception scenarios | The repeating password does not match.                       |
+| Precondition        | <ul><li>The user must confirm that the account will be deleted.</li><li>The user must provide the current password.</li></ul>      |
+| Postcondition       | User is logged in.                                           |
+| Exception scenarios | <ol><li>The current password is incorrect.</li></ol>         |
 
-| Section             | Content                                                                                    |
-| ------------------- | ------------------------------------------------------------------------------------------ |
-| Identifier          | UC-06                                                                                      |
-| Name                | Forgot Password                                                                            |
-| Author              | Pascal, Franco                                                                             |
-| Priority            | Low importance for system success. Technological risk high                                 |
-| Criticality         | Low                                                                                        |
-| Responsibility      | Pascal, Franco                                                                             |
-| Description         | If the user no longer knows his password, he can reset the password by entering his email. |
-| Triggering Event    | Click the Forgot Password Link.                                                            |
-| Actor               | User                                                                                       |
-| Postcondition       | E-Mail exists.                                                                             |
-| Exception scenarios | The email does not exist.                                                                  |
+| Section             | Content                                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------------------- |
+| Identifier          | UC-06                                                                                          |
+| Name                | Forgot Password                                                                                |
+| Author              | Pascal, Franco                                                                                 |
+| Priority            | Low importance for system success. Technological risk middle                                   |
+| Criticality         | Low                                                                                            |
+| Responsibility      | Pascal, Franco                                                                                 |
+| Description         | If a user no longer knows their password, they can reset the password by entering their email. |
+| Triggering event    | Click the Forgot Password Link.                                                                |
+| Actor               | User                                                                                           |
+| Postcondition       | E-Mail exists.                                                                                 |
+| Exception scenarios | <ol><li>The email does not exist.</li></ol>                                                    |
 
 | Section          | Content                                                                                                                            |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | Identifier       | UC-07                                                                                                                              |
 | Name             | Search User                                                                                                                        |
 | Author           | Pascal, Franco                                                                                                                     |
-| Priority         | Middle importance for system success. Technological risk high                                                                      |
+| Priority         | High importance for system success. Technological risk high                                                                        |
 | Criticality      | Middle                                                                                                                             |
 | Responsibility   | Pascal, Franco                                                                                                                     |
 | Description      | The user enters the desired webfinger id in the search field. as a result he gets a user with his information where he can follow. |
-| Triggering Event | Click the search button.                                                                                                           |
+| Triggering event | Click the search button.                                                                                                           |
 | Actor            | User                                                                                                                               |
-| Precondition     | The user is login.                                                                                                                 |
-| Postcondition    | Token is correct.                                                                                                                  |
+| Precondition     | User is logged in.                                                                                                                 |
+| Postcondition    | <ol><li>User is logged in.</li></ol>                                                                                               |
 
 ### Posts Case
 
