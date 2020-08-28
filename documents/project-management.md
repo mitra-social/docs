@@ -75,6 +75,7 @@ An application has to be developed that is capable of the following functions:
 - **green:** done
 - **blue:** open
 - **orange:** not implemented
+- **red:** milestones
 
 ## Meetings
 
