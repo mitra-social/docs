@@ -39,9 +39,7 @@ This shows the commands and events dispatched if an activity hits the inbox endp
 
 ## Frontend
 
-### Class diagramm
-
-#### Block view level 1
+### Block view level 1
 
 ![architecture-frontend block view level 1](./diagrams/architecture-frontend-block-view-level-1.svg)
 
