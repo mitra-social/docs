@@ -18,6 +18,11 @@ The server is the remote ActivityPub server. This can be your own server or a di
 
 ## Use Case
 
+### General exception scenarios
+We have the following general exception scenarios applying to all use cases below:
+
+- The server endpoint responds with an HTTP status code >399
+
 ### Template
 
 | Section             | Content |
@@ -93,7 +98,7 @@ The server is the remote ActivityPub server. This can be your own server or a di
 | Description         | The user can edit their personal data.                          |
 | Triggering event    | User clicks on the settings link/icon.                          |
 | Actor               | User                                                            |
-| Postcondition       | Token is correct.                                               |
+| Precondition        | User is logged in.                                              |
 | Exception scenarios | <ol><li>The repeating password does not match.</li><li>E-Mail address is invalid.</li><li>E-Mail is already registered.</li><li>Current password is missing/wrong.</li></ol> |
 
 | Section             | Content                                                      |
@@ -108,7 +113,6 @@ The server is the remote ActivityPub server. This can be your own server or a di
 | Triggering event    | Click the delete button on the settings page.                |
 | Actor               | User                                                         |
 | Precondition        | <ul><li>The user must confirm that the account will be deleted.</li><li>The user must provide the current password.</li></ul>      |
-| Postcondition       | User is logged in.                                           |
 | Exception scenarios | <ol><li>The current password is incorrect.</li></ol>         |
 
 | Section             | Content                                                                                        |
@@ -137,38 +141,36 @@ The server is the remote ActivityPub server. This can be your own server or a di
 | Triggering event | Click the search button.                                                                                                           |
 | Actor            | User                                                                                                                               |
 | Precondition     | User is logged in.                                                                                                                 |
-| Postcondition    | <ol><li>User is logged in.</li></ol>                                                                                               |
 
 ### Posts Case
 
 ![Usetr](./use-cases/use-case-posts.svg)
-Section | Content
-------------------------| -------------
-Identifier | UC-08
-Name | Show posts
-Author | Pascal, Franco
-Priority | High importance for system success. Technological risk high
-Criticality | High
-Responsibility | Pascal, Franco
-Description | The post is displayed to the user from the user he is following.
-Triggering Event | The login redirects to the home with the posts, the home link is clicked or system pulling with a intervall.
-Actor | User
-Precondition | The user is login.
-Postcondition | Token is correct.
+
+| Section          | Content                                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------- |
+| Identifier       | UC-08                                                                                                         |
+| Name             | Show posts                                                                                                    |
+| Author           | Pascal, Franco                                                                                                |
+| Priority         | High importance for system success. Technological risk high                                                   |
+| Criticality      | High                                                                                                          |
+| Responsibility   | Pascal, Franco                                                                                                |
+| Description      | The post is displayed to the user from the users they're following.                                           |
+| Triggering event | <ul><li>Login redirects to the home page with the posts.</li><li>Home link is clicked.</li><li>Refresh icon is clicked.</li><li>Pulling based on intervall.</li></ul> |
+| Actor            | User                                                                                                          |
+| Precondition     | User is logged in.                                                                                            |
 
 | Section          | Content                                                                       |
 | ---------------- | ----------------------------------------------------------------------------- |
 | Identifier       | UC-09                                                                         |
-| Name             | Toggle show in reply to post                                                  |
+| Name             | Toggle show "in reply to" post                                                |
 | Author           | Pascal, Franco                                                                |
-| Priority         | Low importance for system success. Technological risk middle                  |
+| Priority         | Low importance for system success. Technological risk high                    |
 | Criticality      | Low                                                                           |
 | Responsibility   | Pascal, Franco                                                                |
 | Description      | The post to which the displayed post was replied to should also be displayed. |
-| Triggering Event | The post should be made visible and invisible again with one click.           |
+| Triggering event | The "in reply to" post should be made visible and invisible again on click.   |
 | Actor            | User                                                                          |
-| Precondition     | The user is login.                                                            |
-| Postcondition    | Token is correct.                                                             |
+| Precondition     | <ul><li>The user is logged in.</li><li>An "in reply to" post is available.</li></ul> |
 
 | Section          | Content                                                                                  |
 | ---------------- | ---------------------------------------------------------------------------------------- |
@@ -178,9 +180,10 @@ Postcondition | Token is correct.
 | Priority         | High importance for system success. Technological risk high                              |
 | Criticality      | High                                                                                     |
 | Responsibility   | Pascal, Franco                                                                           |
-| Description      | The server receives activities from users other servers on which the mitra user follows. |
-| Triggering Event | Get data is triggered with a defined interval.                                           |
+| Description      | The server receives activities from users on other servers which the mitra user follows. |
+| Triggering event | Write operation on user's inbox.                                                         |
 | Actor            | Remote ActivityPub Server                                                                |
+| Precondition     | User exists.                                                                             |
 
 ### Follow Case
 
