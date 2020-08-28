@@ -234,7 +234,7 @@ The data structures coming in and going out of the system are described in the f
 
 ### Availability
 
-- The system must be accessible at all times.
+- The system must be accessible in 99% of the uptime of the underlying infrastructure.
 
 ### Reliability
 
@@ -245,11 +245,12 @@ The data structures coming in and going out of the system are described in the f
 
 ### Performance
 
-- The response times should be less than 1 second if possible
+- The response times should be less than 0.5 seconds. Where the risk is given for slower responses due to remote server calls an adequate caching mechanism should be put in place.
 
 ### Security
 
-- The system is protected by a password
+- User's data is protected by credentials
+- User's can only access and modify their own data
 
 ### Usability
 
@@ -264,7 +265,7 @@ The data structures coming in and going out of the system are described in the f
 
 ### Procedure
 
-- Kanban(Agile)
+- [Kanban (Agile)](https://www.atlassian.com/agile/kanban)
 
 ### Standards
 
