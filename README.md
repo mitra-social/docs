@@ -20,10 +20,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Necessary core project team](./documents/project-management.md#necessary-core-project-team)
 - [Risk analysis](./documents/project-management.md#risk-analysis)
 - [Milestones (timeline)](./documents/project-management.md#milestones)
-- [Meeting](./documents/project-management.md#meeting)
-  - [05.03.2020](./documents/minutes/2020-03-05.md)
-  - [02.04.2020](./documents/minutes/2020-04-02.md)
-  - [17.04.2020](./documents/minutes/2020-04-17.md)
+- [Meetings](./documents/project-management.md#meetings)
 - [Project completion](./documents/project-management.md#Project-completion)
 
 ## [Requirements](./documents/requirements.md)
@@ -69,7 +66,7 @@ In this repository we collect project wide documentation and issue tracking.
       - [Version 1](./documents/arcitecture-design.md#version-1)
       - [Version 2](./documents/arcitecture-design.md#version-2)
       - [Decision](./documents/arcitecture-design.md#decision)
-    - [Search actor with his followers and following list](./documents/arcitecture-design.md#Search-actor-with-his-followers-and-following-list)
+    - [Search actor with their followers and following list](./documents/arcitecture-design.md#Search-actor-with-his-followers-and-following-list)
 
 ## [Development Process](./documents/development-process.md)
 
@@ -84,7 +81,7 @@ In this repository we collect project wide documentation and issue tracking.
 - [Mitra demostration video](https://drive.google.com/file/d/10M2gFN9UOlUHNJv2U5FU8Bvq1nGiVfgY/view?usp=sharing)
 - [Presentation](./documents/project-status-review/review_presentation.pdf)
 
-## Conclusion
+## [Conclusion](./documents/conclusion.md)
 
 - [What has been achieved](./documents/conclusion.md#what-has-been-achieved)
 - [What was not achieved](./documents/conclusion.md#what-was-not-achieved)
